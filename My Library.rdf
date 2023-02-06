@@ -1,0 +1,2153 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="http://www.erciyesmedj.com/jvi.aspx?un=EMJ-99836&amp;volume=">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:21492247"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Özdemir</foaf:surname>
+                        <foaf:givenName>Öner</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1"/>
+        <dc:title>Coronavirus Disease 2019 (COVID-19): Diagnosis and Management (narrative review)</dc:title>
+        <dcterms:abstract>Cite this article as: Öner Özdemir. Coronavirus Disease 2019 (COVID-19): Diagnosis and Management. Erciyes Med J 2020; 42(3): 242–7.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Coronavirus Disease 2019 (COVID-19)</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.erciyesmedj.com/jvi.aspx?un=EMJ-99836&amp;volume=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-11-10 04:01:59</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:21492247">
+        <dc:title>Erciyes Medical Journal</dc:title>
+        <dc:identifier>DOI 10.14744/etd.2020.99836</dc:identifier>
+        <dcterms:alternative>Erciyes Med J</dcterms:alternative>
+        <dc:identifier>ISSN 21492247</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Özdemir - 2020 - Coronavirus Disease 2019 (COVID-19) Diagnosis and.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://journal.umkendari.ac.id/index.php/decode/article/view/48">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2775-1813,%202775-2984"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Diana Tri Susetianingtias</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Eka Patriya</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Rodiah</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_3"/>
+        <dc:title>Model Random Forest Regression Untuk Peramalan Penyebaran Covid-19 Di Indonesia: Random Forest Regression Model for Forecast Of Covid-19 Spread In Indonesia</dc:title>
+        <dcterms:abstract>The spread of COVID-19 is so fast that on February 27, 2020, it has infected 78630 people in China and another 2747 people have died. The existence of COVID-19 in Indonesia itself was first confirmed on March 2, 2020. In this study, researchers will forecast the spread of COVID-19 in Indonesia using the Random Forest Regression method. The used Raw Dataset is the dataset obtained from the website www.kaggle.com which contains 10,695 records summarized from March 1, 2020 to January 21, 2021. The number of features of the raw dataset is 37 features. The preprocessing process in this study consists of feature conversion, feature selection and getting features for the model. The used feature selection method is the Recursive Feature Elimination which successfully selects features from the dataset from 37 to 20 features. Model training using training set totaling 8555 records. Forecasting using the Random Forest Regression model will use a validation set totaling 2139 records. The results of the calculation of errors for the Random Forest Regression model are not large, namely 6,477 for New Cases forecasting, and 0.2469 for New Deaths forecasting, which means that the predicted value results with the actual value are not much different.</dcterms:abstract>
+        <dc:date>2022-09-29</dc:date>
+        <z:language>id</z:language>
+        <z:shortTitle>Model Random Forest Regression Untuk Peramalan Penyebaran Covid-19 Di Indonesia</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journal.umkendari.ac.id/index.php/decode/article/view/48</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-11-10 04:43:19</dcterms:dateSubmitted>
+        <bib:pages>84-95</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2775-1813,%202775-2984">
+        <prism:volume>2</prism:volume>
+        <dc:title>Decode: Jurnal Pendidikan Teknologi Informasi</dc:title>
+        <dc:identifier>DOI 10.51454/decode.v2i2.48</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Decode</dcterms:alternative>
+        <dc:identifier>ISSN 2775-1813, 2775-2984</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_3">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Diana Tri Susetianingtias et al. - 2022 - Model Random Forest Regression Untuk Peramalan Pen.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ejournal.stikku.ac.id/index.php/stikku/article/view/343">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2623-1204,%202252-9462"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nugraha</foaf:surname>
+                        <foaf:givenName>Moch. Didik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4"/>
+        <dc:title>ANALISIS FAKTOR RISIKO KEMATIAN AKIBAT INFEKSI COVID-19: SYSTEMATIC REVIEW</dc:title>
+        <dcterms:abstract>Lima negara dengan kematian tertinggi akibat Covid-19 hingga 31 Juli 2021 sebanyak 196.995.824 orang telah terinfeksi dengan angka kematian mencapai 4.203.926 orang, dimana negara Amerika menduduki urutan pertama dengan jumlah kasus sebesar 35.003.890 dan angka kematian kurang lebih mencapai 612.876 jiwa. Sedangkan negara Indonesia sebagai salah satu negara yang juga terkena wabah ini mencatat sebanyak 3.372.374 yang telah terkonfirmasi dan sebanyak 92.311 orang mengalami kematian akibat Covid-19. Identifikasi faktor risiko kematian akibat penyakit ini akan membantu membuat keputusan yang tepat dan dengan demikian mengendalikan dan meminimalkan kematian akibat pandemi ini. Tujuan dari tinjauan sistematis ini adalah untuk menganalisis penyebab kematian akibat Virus Corona Diseases (Covid-19). Tujuan â€“ Tujuan dari tinjauan sistematis ini adalah untuk menganalisis penyebab kematian akibat Corona Virus Diseases (Covid-19). Desain/metodologi/pendekatan â€“ Tinjauan sistematis dilakukan pada database online Proquest, SCOPUS, dan Science Direct dengan 3 kata kunci berikut &quot;faktor risiko&quot; DAN &quot;mortalitas&quot; DAN &quot;Covid-19&quot; kemudian disaring berdasarkan publikasi khusus pada tahun 2020, dalam bahasa Inggris, teks lengkap, dan jurnal pilihan berdasarkan judul dan abstrak. Hasil â€“ Ada beberapa faktor risiko kematian pada pasien terinfeksi Covid-19. Faktor risiko tersebut perlu dilakukan pengkajian dini dalam menangani pasien Covid-19 untuk meminimalkan risiko kematian akibat covid 19. Diantaranya adalah faktor karakteristik (usia dan jenis kelamin), faktor penyakit kronis (komorbiditas), faktor gizi (obesitas). ) dan faktor hasil laboratorium darah. Faktor yang dapat dikendalikan oleh perawat adalah pengendalian faktor IMT dengan menghitung kebutuhan intake dan output pasien. Kesimpulan â€“ Faktor risiko tersebut perlu dilakukan saat pengkajian awal dalam penanganan pasien Covid 19 untuk meminimalisir risiko kematian akibat Covid 19.</dcterms:abstract>
+        <dc:date>2021-12-02</dc:date>
+        <z:language>id</z:language>
+        <z:shortTitle>ANALISIS FAKTOR RISIKO KEMATIAN AKIBAT INFEKSI COVID-19</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ejournal.stikku.ac.id/index.php/stikku/article/view/343</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-11-10 04:43:23</dcterms:dateSubmitted>
+        <bib:pages>204-214</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2623-1204,%202252-9462">
+        <prism:volume>12</prism:volume>
+        <dc:title>Jurnal Ilmu Kesehatan Bhakti Husada: Health Sciences Journal</dc:title>
+        <dc:identifier>DOI 10.34305/jikbh.v12i2.343</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>JIKBH</dcterms:alternative>
+        <dc:identifier>ISSN 2623-1204, 2252-9462</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Nugraha - 2021 - ANALISIS FAKTOR RISIKO KEMATIAN AKIBAT INFEKSI COV.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_8">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Firmansyah</foaf:surname>
+                        <foaf:givenName>Ichsan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Samudra</foaf:surname>
+                        <foaf:givenName>Jaka Tirta</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pardede</foaf:surname>
+                        <foaf:givenName>Doughlas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Situmorang</foaf:surname>
+                        <foaf:givenName>Zakarias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7"/>
+        <dc:title>KOMPARASI RANDOM FOREST DAN LOGISTIC REGRESSION DALAM KLASIFIKASI PENDERITA COVID-19 BERDASARKAN GEJALANYA</dc:title>
+        <dcterms:abstract>In data mining, we can use symptoms suffered by patients for a reference in classifying positive and negative Covid-19 patients using data mining. Random Forest and logistic regression are two data mining algorithms with high accuracy, precision, and sensitivity in data classification. This study compares the random forest and the logistic regression algorithm - where we use the lasso and ridge regulations - on classifying positive and negative Covid-19 patients based on their symptoms. From 5434 data used in the data set, the evaluation results show that the random forest algorithm is the best in terms of accuracy, precision, and sensitivity compared to other algorithms, while the logistic regression algorithm with ridge regulation is the worst. The random forest algorithm is the most reliable in classifying patients with positive Covid-19, while the logistic regression algorithm with ridge regulation is the least reliable. Also, the random forest algorithm is the most reliable in classifying patients with negative Covid19, while the logistic regression algorithm with lasso regulation is the least reliable.</dcterms:abstract>
+        <z:language>id</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>7</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_7">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Firmansyah et al. - KOMPARASI RANDOM FOREST DAN LOGISTIC REGRESSION DA.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_9">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>cover+compro baru_2022.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-1-4842-2942-2%20978-1-4842-2943-9">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-1-4842-2942-2 978-1-4842-2943-9</dc:identifier>
+                <dc:title>The Definitive Guide to Firebase</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berkeley, CA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Apress</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:bookAuthors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moroney</foaf:surname>
+                        <foaf:givenName>Laurence</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:bookAuthors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moroney</foaf:surname>
+                        <foaf:givenName>Laurence</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_10"/>
+        <dc:title>The Firebase Realtime Database</dc:title>
+        <dc:date>2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-1-4842-2943-9_3</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-11-21 16:04:00</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1007/978-1-4842-2943-9_3</dc:description>
+        <bib:pages>51-71</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Moroney - 2017 - The Firebase Realtime Database.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.ijcaonline.org/archives/volume179/number46/khawas-2018-ijca-917200.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:09758887"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khawas</foaf:surname>
+                        <foaf:givenName>Chunnu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shah</foaf:surname>
+                        <foaf:givenName>Pritam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_12"/>
+        <dc:title>Application of Firebase in Android App Development-A Study</dc:title>
+        <dcterms:abstract>The web application has become more and more reliant upon large amount of database and unorganized data such as videos, images, audio, text, files and other arbitrary types. It is difficult for Relational Database Management System (RDBMS) to handle the unstructured data. Firebase is a relatively new technology for handling large amount of unstructured data. It is very fast as compared to RDBMS. This paper focuses on the application of Firebase with Android and aims at familiarizing its concepts, related terminologies, advantages and limitations. The paper also tries to demonstrate some of the features of Firebase by developing an Android app.</dcterms:abstract>
+        <dc:date>2018-06-15</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ijcaonline.org/archives/volume179/number46/khawas-2018-ijca-917200.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-11-21 16:06:27</dcterms:dateSubmitted>
+        <bib:pages>49-53</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:09758887">
+        <prism:volume>179</prism:volume>
+        <dc:title>International Journal of Computer Applications</dc:title>
+        <dc:identifier>DOI 10.5120/ijca2018917200</dc:identifier>
+        <prism:number>46</prism:number>
+        <dcterms:alternative>IJCA</dcterms:alternative>
+        <dc:identifier>ISSN 09758887</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_12">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Khawas and Shah - 2018 - Application of Firebase in Android App Development.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.iaescore.com/journals/index.php/IJECE/article/view/443">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2088-8708,%202088-8708"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sutikno</foaf:surname>
+                        <foaf:givenName>Tole</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Handayani</foaf:surname>
+                        <foaf:givenName>Lina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stiawan</foaf:surname>
+                        <foaf:givenName>Deris</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riyadi</foaf:surname>
+                        <foaf:givenName>Munawar Agus</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Much Ibnu Subroto</foaf:surname>
+                        <foaf:givenName>Imam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_14"/>
+        <dc:title>WhatsApp, Viber and Telegram which is Best for Instant Messaging?</dc:title>
+        <dcterms:abstract>&lt;p&gt;There are many free instant messengers available now which allow to communicate with friends with text, phone call, video, sharing of files, in group or not and keep contact with them even internationally. But only very few of the instant messengers have gained a popularity and attention. Recent studies have shown that the most popular instant messengers are WhatsApp, Viber and Telegram. Even, Facebook acquired WhatsApp due to have huge users. Viber is another messenger with many integrated features that allows the phone calls and sends the text messages for free and there is no subscription like WhatsApp. While Telegram offers the users an open-source platform with no ads, a clean fast interface, asks for no payments whatsoever and the biggest selling point is security. WhatsApp, Viber and Telegram which instant messenger is best? The popularity of Telegram has reached at the top of Google play store and become the most downloaded messaging app in the world today. But at the moment WhatsApp is still the winner!&lt;/p&gt;</dcterms:abstract>
+        <dc:date>2016-06-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.iaescore.com/journals/index.php/IJECE/article/view/443</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-11-21 16:43:28</dcterms:dateSubmitted>
+        <bib:pages>909</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2088-8708,%202088-8708">
+        <prism:volume>6</prism:volume>
+        <dc:title>International Journal of Electrical and Computer Engineering (IJECE)</dc:title>
+        <dc:identifier>DOI 10.11591/ijece.v6i3.10271</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>IJECE</dcterms:alternative>
+        <dc:identifier>ISSN 2088-8708, 2088-8708</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_14">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Sutikno et al. - 2016 - WhatsApp, Viber and Telegram which is Best for Ins.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_16">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Express.js-Guide.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+        <dc:description>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_17">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Express.js Guide  The Comprehensive Book on Express.js ( PDFDrive ).pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.tandfonline.com/doi/full/10.1057/ejis.2010.47">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0960-085X,%201476-9344"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wakefield</foaf:surname>
+                        <foaf:givenName>Robin L</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wakefield</foaf:surname>
+                        <foaf:givenName>Kirk L</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baker</foaf:surname>
+                        <foaf:givenName>Julie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Liz C</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_18"/>
+        <dc:title>How website socialness leads to website use</dc:title>
+        <dcterms:abstract>Website designers are beginning to incorporate social cues, such as helpfulness and familiarity, into e-commerce sites to facilitate the exchange relationship. Website socialness elicits a social response from users of the site and this response produces enjoyment. Users patronize websites that are exciting, entertaining and stimulating. The purpose of our study is to explore the effects of website socialness perceptions on the formation of users’ beliefs, attitudes and subsequent behavioral intentions. We manipulate website socialness perceptions across two different online shopping contexts, one for functional products and the other for pleasure-oriented products, and draw from the responses of 300 Internet users. Our findings show that website socialness perceptions lead to enjoyment, have a strong influence on user intentions and these effects are invariant across shopping contexts.</dcterms:abstract>
+        <dc:date>01/2011</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tandfonline.com/doi/full/10.1057/ejis.2010.47</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-11-27 16:31:59</dcterms:dateSubmitted>
+        <bib:pages>118-132</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0960-085X,%201476-9344">
+        <prism:volume>20</prism:volume>
+        <dc:title>European Journal of Information Systems</dc:title>
+        <dc:identifier>DOI 10.1057/ejis.2010.47</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>European Journal of Information Systems</dcterms:alternative>
+        <dc:identifier>ISSN 0960-085X, 1476-9344</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_18">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Wakefield et al. - 2011 - How website socialness leads to website use.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.tandfonline.com/doi/full/10.1080/10447318.2018.1455307">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1044-7318,%201532-7590"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lewis</foaf:surname>
+                        <foaf:givenName>James R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_20"/>
+        <dc:title>The System Usability Scale: Past, Present, and Future</dc:title>
+        <dcterms:abstract>The System Usability Scale (SUS) is the most widely used standardized questionnaire for the assessment of perceived usability. This review of the SUS covers its early history from inception in the 1980s through recent research and its future prospects. From relatively inauspicious beginnings, when its originator described it as a “quick and dirty usability scale,” it has proven to be quick but not “dirty.” It is likely that the SUS will continue to be a popular measurement of perceived usability for the foreseeable future. When researchers and practitioners need a measure of perceived usability, they should strongly consider using the SUS.</dcterms:abstract>
+        <dc:date>2018-07-03</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>The System Usability Scale</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tandfonline.com/doi/full/10.1080/10447318.2018.1455307</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-12-07 13:12:45</dcterms:dateSubmitted>
+        <bib:pages>577-590</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1044-7318,%201532-7590">
+        <prism:volume>34</prism:volume>
+        <dc:title>International Journal of Human–Computer Interaction</dc:title>
+        <dc:identifier>DOI 10.1080/10447318.2018.1455307</dc:identifier>
+        <prism:number>7</prism:number>
+        <dcterms:alternative>International Journal of Human–Computer Interaction</dcterms:alternative>
+        <dc:identifier>ISSN 1044-7318, 1532-7590</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_20">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Lewis - 2018 - The System Usability Scale Past, Present, and Fut.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Data Visualization with Python and JavaScript, 2nd Edition by Kyran Dale_bibis.ir.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_24">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smilkov</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thorat</foaf:surname>
+                        <foaf:givenName>Nikhil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Assogba</foaf:surname>
+                        <foaf:givenName>Yannick</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuan</foaf:surname>
+                        <foaf:givenName>Ann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kreeger</foaf:surname>
+                        <foaf:givenName>Nick</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Ping</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Kangyi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cai</foaf:surname>
+                        <foaf:givenName>Shanqing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nielsen</foaf:surname>
+                        <foaf:givenName>Eric</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soergel</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bileschi</foaf:surname>
+                        <foaf:givenName>Stan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Terry</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nicholson</foaf:surname>
+                        <foaf:givenName>Charles</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gupta</foaf:surname>
+                        <foaf:givenName>Sandeep N</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sirajuddin</foaf:surname>
+                        <foaf:givenName>Sarah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sculley</foaf:surname>
+                        <foaf:givenName>D</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Monga</foaf:surname>
+                        <foaf:givenName>Rajat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corrado</foaf:surname>
+                        <foaf:givenName>Greg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Viégas</foaf:surname>
+                        <foaf:givenName>Fernanda B</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wattenberg</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_23"/>
+        <dc:title>TensorFlow.js: Machine Learning for the Web and Beyond</dc:title>
+        <dcterms:abstract>TensorFlow.js is a library for building and executing machine learning algorithms in JavaScript. TensorFlow.js models run in a web browser and in the Node.js environment. The library is part of the TensorFlow ecosystem, providing a set of APIs that are compatible with those in Python, allowing models to be ported between the Python and JavaScript ecosystems. TensorFlow.js has empowered a new set of developers from the extensive JavaScript community to build and deploy machine learning models and enabled new classes of on-device computation. This paper describes the design, API, and implementation of TensorFlow.js, and highlights some of the impactful use cases.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_23">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Smilkov et al. - TensorFlow.js Machine Learning for the Web and Be.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-5106-6124-0%20978-1-5106-6125-7">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-5106-6124-0 978-1-5106-6125-7</dc:identifier>
+                <dc:title>Third International Conference on Computer Science and Communication Technology (ICCSCT 2022)</dc:title>
+                <dc:identifier>DOI 10.1117/12.2661778</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Beijing, China</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>SPIE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>chang</foaf:surname>
+                        <foaf:givenName>xinyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>jing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lu</foaf:surname>
+                        <foaf:givenName>Yingfa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Changbo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_25"/>
+        <dc:title>Improvement of Excel data processing function based on Spring MVC framework</dc:title>
+        <dcterms:abstract>Excel is widely used due to its continuous improvement and development on Excel function. But with the development of science and technology and the subsequent increasing data amount of to be processed, the problem that excel still lacks of batch data processing and data verification is challenging. Based on Spring MVC + EasyUI framework, we proposed a Java J2EE IDE integrated development environment. An independent Java Development Kit was designed, which is able to be embedded into Excel. Using Json to transform the results of Java background processing into data that can be processed by the front-end, we realized the batch import and export of Excel data and data verification functions, which ensured the completeness and accuracy of the data entered while retaining the convenience of Excel.</dcterms:abstract>
+        <dc:date>2022-12-29</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12506/2661778/Improvement-of-Excel-data-processing-function-based-on-Spring-MVC/10.1117/12.2661778.full</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-03 14:49:50</dcterms:dateSubmitted>
+        <bib:pages>25</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>International Conference on Computer Science and Communication Technology (ICCSCT 2022)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>chang and Li - 2022 - Improvement of Excel data processing function base.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1907.11907">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ingólfsdóttir</foaf:surname>
+                        <foaf:givenName>Svanhvít Lilja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Loftsson</foaf:surname>
+                        <foaf:givenName>Hrafn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Daðason</foaf:surname>
+                        <foaf:givenName>Jón Friðrik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bjarnadóttir</foaf:surname>
+                        <foaf:givenName>Kristín</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_29"/>
+        <link:link rdf:resource="#item_27"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Nefnir: A high accuracy lemmatizer for Icelandic</dc:title>
+        <dcterms:abstract>Lemmatization, ﬁnding the basic morphological form of a word in a corpus, is an important step in many natural language processing tasks when working with morphologically rich languages. We describe and evaluate Nefnir, a new open source lemmatizer for Icelandic. Nefnir uses sufﬁx substitution rules, derived from a large morphological database, to lemmatize tagged text. Evaluation shows that for correctly tagged text, Nefnir obtains an accuracy of 99.55%, and for text tagged with a PoS tagger, the accuracy obtained is 96.88%.</dcterms:abstract>
+        <dc:date>2019-07-27</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Nefnir</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1907.11907</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-05 03:40:34</dcterms:dateSubmitted>
+        <dc:description>arXiv:1907.11907 [cs]</dc:description>
+        <prism:number>arXiv:1907.11907</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_29">
+       <rdf:value>Comment: Presented at NoDaLiDa 2019, Turku, Finland</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_27">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Ingólfsdóttir et al. - 2019 - Nefnir A high accuracy lemmatizer for Icelandic.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_31">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Glantz</foaf:surname>
+                        <foaf:givenName>Isac</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hurtig</foaf:surname>
+                        <foaf:givenName>Hampus</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_30"/>
+        <dc:title>Express.js and Ktor web server performance A comparative study</dc:title>
+        <dcterms:abstract>We found that Express.js has an overall better response time than Ktor. At the same time, it was found that the Object Relational Mapper used with Ktor aﬀected the result more than the Object Relational Mapper used with Express.js. Hence, we conclude that Express.js is the better choice, but since both frameworks had low response times, we would say that even Ktor is a valid choice.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Glantz and Hurtig - Express.js and Ktor web server performance A compa.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S2214785320324159">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:22147853"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jose</foaf:surname>
+                        <foaf:givenName>Benymol</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abraham</foaf:surname>
+                        <foaf:givenName>Sajimon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_32"/>
+        <dc:title>Performance analysis of NoSQL and relational databases with MongoDB and MySQL</dc:title>
+        <dcterms:abstract>Relational databases are not powerful, when we have to inquire with an extensive variety of gigantic information. Relational databases like MySQL are storing data in organized form. Document-based data stores like MongoDB, which is a type of NoSQL database can store huge volume of data which additionally have very powerful query engines and indexing features. This paper concentrates on the upsides of NoSQL databases over relational databases in the investigation of the big data by making a performance comparison of various queries and commands in both the systems using two different datasets of dissimilar sizes.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S2214785320324159</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-05 06:43:03</dcterms:dateSubmitted>
+        <bib:pages>2036-2043</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:22147853">
+        <prism:volume>24</prism:volume>
+        <dc:title>Materials Today: Proceedings</dc:title>
+        <dc:identifier>DOI 10.1016/j.matpr.2020.03.634</dc:identifier>
+        <dcterms:alternative>Materials Today: Proceedings</dcterms:alternative>
+        <dc:identifier>ISSN 22147853</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Jose and Abraham - 2020 - Performance analysis of NoSQL and relational datab.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ijtsrd.com/computer-science/other/23698/comparative-study-of-test-driven-development-tdd-behavior-driven-development-bdd-and--acceptance-test–driven-development-atdd/myint-myint-moe">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2456-6470"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moe</foaf:surname>
+                        <foaf:givenName>Myint Myint</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>University of Computer Studies, Hpa-An, Kayin State, Myanmar</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <dc:title>Comparative Study of Test-Driven Development TDD, Behavior-Driven Development BDD and Acceptance Test–Driven Development ATDD</dc:title>
+        <dcterms:abstract>TDD, BDD and ATDD were introduced by XP (Extreme Programming) is an agile software development framework. They are unit testing approaches. TDD, BDD and ATDD are a software development technique which uses unit tests to incrementally deliver small pieces of functionality. TDD is a developer-focused process. In Test Driven Development (TDD), first come tests and then the code. The minimal piece of code is written in order to pass the designed test. In other words, it is the process of testing the code before its accrual writing. If the code passes the test, then developers can proceed to its refactoring. Behavior-Driven Development (BDD) is a customer-focused process. It is based on the full and clear understanding of the system or module behavior but in the terms of business/client. The tests for TDD are created by developers for developers. The test for BDD can be written by testers or technical managers. Acceptance TestDriven Development (ATDD) is towards the developer-focused side of things. ATDD is a technique where the entire team collaborates to define the acceptance criteria of a story before the implementation actually begins. These acceptance tests are supported necessary information. Using the Given-When-Then format, ATDD approach can implement.</dcterms:abstract>
+        <dc:date>2019-6-30</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ijtsrd.com/computer-science/other/23698/comparative-study-of-test-driven-development-tdd-behavior-driven-development-bdd-and--acceptance-test–driven-development-atdd/myint-myint-moe</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-05 11:44:48</dcterms:dateSubmitted>
+        <bib:pages>231-234</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2456-6470">
+        <prism:volume>Volume-3</prism:volume>
+        <dc:title>International Journal of Trend in Scientific Research and Development</dc:title>
+        <dc:identifier>DOI 10.31142/ijtsrd23698</dc:identifier>
+        <prism:number>Issue-4</prism:number>
+        <dcterms:alternative>IJTSRD</dcterms:alternative>
+        <dc:identifier>ISSN 2456-6470</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Moe and University of Computer Studies, Hpa-An, Kayin State, Myanmar - 2019 - Comparative Study of Test-Driven Development TDD, .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-3-030-35332-2%20978-3-030-35333-9">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dc:title>Lecture Notes in Computer Science</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cham</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Franch</foaf:surname>
+                        <foaf:givenName>Xavier</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Männistö</foaf:surname>
+                        <foaf:givenName>Tomi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Martínez-Fernández</foaf:surname>
+                        <foaf:givenName>Silverio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_36"/>
+        <dc:title>Product-Focused Software Process Improvement: 20th International Conference, PROFES 2019, Barcelona, Spain, November 27–29, 2019, Proceedings</dc:title>
+        <dc:date>2019</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Product-Focused Software Process Improvement</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-3-030-35333-9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-05 16:17:55</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1007/978-3-030-35333-9</dc:description>
+        <prism:volume>11915</prism:volume>
+        <dc:identifier>ISBN 978-3-030-35332-2 978-3-030-35333-9</dc:identifier>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Franch et al. - 2019 - Product-Focused Software Process Improvement 20th.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-72810-851-3">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-72810-851-3</dc:identifier>
+                <dc:title>2019 IEEE 6th International Conference on Industrial Engineering and Applications (ICIEA)</dc:title>
+                <dc:identifier>DOI 10.1109/IEA.2019.8714889</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Tokyo, Japan</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ibarra</foaf:surname>
+                        <foaf:givenName>Joseph Bryan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Caya</foaf:surname>
+                        <foaf:givenName>Meo Vincent C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bentir</foaf:surname>
+                        <foaf:givenName>Sarah Alma P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paglinawan</foaf:surname>
+                        <foaf:givenName>Arnold C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Monta</foaf:surname>
+                        <foaf:givenName>Jim Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Penetrante</foaf:surname>
+                        <foaf:givenName>Francis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mocon</foaf:surname>
+                        <foaf:givenName>Jumarie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Turingan</foaf:surname>
+                        <foaf:givenName>Jerry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_38"/>
+        <dc:title>Development of the Low Cost Classroom Response System Using Test-Driven Development Approach and Analysis of the Adaptive Capability of Students Using Sequential Minimal Optimization Algorithm</dc:title>
+        <dcterms:abstract>This study discussed the development of the low cost student response using open-source frameworks which supports agile interaction design to address most of the Classroom Response System’s problems such as the limited input capabilities as well as the cost of the infrastructure, subscription, and equipment which does not compromise the accuracy of the transfer of data. This development also benefit schools in some rural areas with limited access of Internet as well as the students with sufficient connection to the Internet to avoid high risk of distraction. To ensure the expected output of each unit, Test-Driven Development approach was performed in each unit feature in the backend development of the system. Further, surveys were conducted in grade 8 and grade 12 students to identify the percentage of students who are willing and able to adapt the CRS technology in their studies. Classification result shows that 73.5632 % answered that they are willing to adapt the CRS technology in their classroom. However, 47.83% in the remaining 26.44% have expertise and advanced knowledge in technology while the remaining 37% to the 26.44% are familiars and can only perform basic functionality of computer. Further, statistical result have identified the factors that correlate the student’s preferences in using CRS.</dcterms:abstract>
+        <dc:date>4/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/8714889/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-05 16:58:06</dcterms:dateSubmitted>
+        <bib:pages>689-693</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2019 IEEE 6th International Conference on Industrial Engineering and Applications (ICIEA)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_38">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Ibarra et al. - 2019 - Development of the Low Cost Classroom Response Sys.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://developer.ibm.com/articles/5-steps-of-test-driven-development/">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>IBM Developer</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steinfeld</foaf:surname>
+                        <foaf:givenName>Grant</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>5 steps of test-driven development</dc:title>
+        <dc:date>February 6th, 2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://developer.ibm.com/articles/5-steps-of-test-driven-development/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:Article>
+    <bib:Article rdf:about="https://ojs.unud.ac.id/index.php/lontar/article/view/59547">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2541-5832,%202088-1541"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Arifin</foaf:surname>
+                        <foaf:givenName>Mohammad Nazir</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Siahaan</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_41"/>
+        <dc:title>Structural and Semantic Similarity Measurement of UML Use Case Diagram</dc:title>
+        <dcterms:abstract>Reusing software has several beneﬁts ranging from reducing cost and risk, accelerating development, and its primary purposes are improving software quality. In the early stage of software development, reusing existing software artifacts may increase the beneﬁt of reusing software because it uses mature artifacts from previous artifacts. One of software artifacts is diagram, and in order to assist the reusing diagram is to ﬁnd the level of similarity of diagrams. This paper proposes a method for measuring the similarity of the use case diagram using structural and semantic aspects. For structural similarity measurement, Graph Edit Distance is used by transforming each actor and use case into a graph, while for semantic similarity measurement, WordNet, WuPalmer, and Levenshtein were used. The experimentation was conducted on ten datasets from various projects. The results of the method were compared with the results of assessments from experts. The measurement of agreement between experts and method was done by using Gwet’s AC1 and Pearson correlation coefﬁcient. Measurement results with Gwet’s AC1 diagram similarity are 0,60, which were categorized as “moderate&quot; agreement and the result of measurement with Pearson is 0.506 which means there is a signiﬁcant correlation between experts and methods. The result showed that the proposed method can be used to ﬁnd the similarity of the diagram, so ﬁnding and reuse of the diagram as a software component can be optimized.</dcterms:abstract>
+        <dc:date>2020-07-13</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.unud.ac.id/index.php/lontar/article/view/59547</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-06 02:53:56</dcterms:dateSubmitted>
+        <bib:pages>88</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2541-5832,%202088-1541">
+        <prism:volume>11</prism:volume>
+        <dc:title>Lontar Komputer : Jurnal Ilmiah Teknologi Informasi</dc:title>
+        <dc:identifier>DOI 10.24843/LKJITI.2020.v11.i02.p03</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>LKJITI</dcterms:alternative>
+        <dc:identifier>ISSN 2541-5832, 2088-1541</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Arifin and Siahaan - 2020 - Structural and Semantic Similarity Measurement of .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.inass.org/2021/2021022846.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:21853118"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Institut Teknologi Sepuluh Nopember</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fauzan</foaf:surname>
+                        <foaf:givenName>Reza</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Siahaan</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Institut Teknologi Sepuluh Nopember</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rochimah</foaf:surname>
+                        <foaf:givenName>Siti</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Institut Teknologi Sepuluh Nopember</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Triandini</foaf:surname>
+                        <foaf:givenName>Evi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Institut Teknologi dan Bisnis STIKOM Bali</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_43"/>
+        <dc:title>A Different Approach on Automated Use Case Diagram Semantic Assessment</dc:title>
+        <dcterms:abstract>The use case diagram is one of the diagrams commonly taught in colleges of computer science. Assessment of use case diagrams is often an obstacle for a teacher in the learning process. It is due to the interpersonal and intrapersonal problems of the teacher in assessing. Interpersonal problems are caused by the absence of an assessment standard among teachers. Intrapersonal problems are caused by the inconsistency of a teacher in assessing many diagrams of student answers. This research aims to create a semantic use case diagram automatic assessment method. Semantic assessment is divided into two kinds, namely property and relationship. All information used is a label translated from the XMI document. Similarity assessment between labels used cosine similarity, employing WuPalmer to perform WordNet searches. The results showed that the proposed method had a substantial agreement with the teacher as an expert; however, a teacher tends to look at property information rather than relationship information to assess use case diagrams.</dcterms:abstract>
+        <dc:date>2021-2-28</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.inass.org/2021/2021022846.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-06 03:01:24</dcterms:dateSubmitted>
+        <bib:pages>496-505</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:21853118">
+        <prism:volume>14</prism:volume>
+        <dc:title>International Journal of Intelligent Engineering and Systems</dc:title>
+        <dc:identifier>DOI 10.22266/ijies2021.0228.46</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>IJIES</dcterms:alternative>
+        <dc:identifier>ISSN 21853118</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Institut Teknologi Sepuluh Nopember et al. - 2021 - A Different Approach on Automated Use Case Diagram.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_45">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <dc:title>Informal Semantics of UML Use Case Diagram</dc:title>
+    </bib:Document>
+    <bib:Article rdf:about="https://jusst.org/novel-approach-to-transform-uml-sequence-diagram-to-activity-diagram/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:10076735"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dept. of Computer Science &amp; Engineering, BITM, VTU, Ballari, India.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kulkarni</foaf:surname>
+                        <foaf:givenName>Dr. R. N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Srinivasa</foaf:surname>
+                        <foaf:givenName>C. K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dept. of Computer Science &amp; Engineering, BITM, VTU, Ballari, India.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_46"/>
+        <dc:title>Novel approach to transform UML Sequence diagram to Activity diagram</dc:title>
+        <dcterms:abstract>Unified Modelling Language (UML) is currently accepted as a defacto standard language for modeling the software in the software industry. It will allow to implement object oriented concepts to model the software system. It provides a complete pictographic representation of software. Broadly these UML diagrams are classified into two groups viz. Structural diagrams and Behavioral diagrams. The sequence diagrams and Activity diagrams belongs to the second group i.e. behavioral diagrams. The sequence diagram represents the sequence of messages flowing from one object to another and activity diagram represents the flow of activities one after the other in a system. In this paper, we are proposing an automated tool which transforms the sequence diagram (which is represented in the table format) into activity diagram. The sequence diagram which is represented in the three column table called sequence table comprises various components of sequence diagram like objects, interactions, messages, alternations, iterations, loops, etc. The proposed tool reads the sequence table and converts the entire table components into the equivalent Activity table. Further the tool reads the activity table and then transforms to its equivalent activity diagram.</dcterms:abstract>
+        <dc:date>2021-07-26</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jusst.org/novel-approach-to-transform-uml-sequence-diagram-to-activity-diagram/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-06 16:57:25</dcterms:dateSubmitted>
+        <bib:pages>1247-1255</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:10076735">
+        <prism:volume>23</prism:volume>
+        <dc:title>Journal of University of Shanghai for Science and Technology</dc:title>
+        <dc:identifier>DOI 10.51201/JUSST/21/07300</dc:identifier>
+        <prism:number>07</prism:number>
+        <dcterms:alternative>JUSST</dcterms:alternative>
+        <dc:identifier>ISSN 10076735</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_46">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Dept. of Computer Science &amp; Engineering, BITM, VTU, Ballari, India. et al. - 2021 - Novel approach to transform UML Sequence diagram t.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s11334-021-00389-4">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1614-5046,%201614-5054"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shirole</foaf:surname>
+                        <foaf:givenName>Mahesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kumar</foaf:surname>
+                        <foaf:givenName>Rajeev</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_48"/>
+        <dc:title>Constrained permutation-based test scenario generation from concurrent activity diagrams</dc:title>
+        <dcterms:abstract>Concurrency in application systems can be designed and visualized using concurrent activity diagrams. Such diagrams are useful to design concurrency test scenarios for testing. However, the number of test scenarios inside a fork-join construct could be exponential in size. The commonly used permutation technique generates all possible test scenarios, but it is exponential in size. Existing UML graph theoretic-based approaches generate a few test scenarios for concurrency testing. But they do not consider the full functionality of concurrent activity diagrams. In this work, we present two constrained permutationbased test scenario generation approaches, namely the level permutation and DFS level permutation for concurrent activity diagrams. These approaches restrict the exponential size to a reasonable size of test scenarios. It is achieved by generating a subset of permutations at different levels. The generated test scenarios are sufﬁcient to uncover most concurrency errors like synchronization, data-race, and deadlocks. The proposed technique improves interleaving activity path coverage up to 35% compared to the existing approaches.</dcterms:abstract>
+        <dc:date>12/2021</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s11334-021-00389-4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-07 05:51:48</dcterms:dateSubmitted>
+        <bib:pages>343-353</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1614-5046,%201614-5054">
+        <prism:volume>17</prism:volume>
+        <dc:title>Innovations in Systems and Software Engineering</dc:title>
+        <dc:identifier>DOI 10.1007/s11334-021-00389-4</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Innovations Syst Softw Eng</dcterms:alternative>
+        <dc:identifier>ISSN 1614-5046, 1614-5054</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Shirole and Kumar - 2021 - Constrained permutation-based test scenario genera.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-72810-869-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-72810-869-8</dc:identifier>
+                <dc:title>2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)</dc:title>
+                <dc:identifier>DOI 10.1109/ICSE.2019.00045</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Montreal, QC, Canada</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Malik</foaf:surname>
+                        <foaf:givenName>Rabee Sohail</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Patra</foaf:surname>
+                        <foaf:givenName>Jibesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pradel</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_50"/>
+        <dc:title>NL2Type: Inferring JavaScript Function Types from Natural Language Information</dc:title>
+        <dcterms:abstract>JavaScript is dynamically typed and hence lacks the type safety of statically typed languages, leading to suboptimal IDE support, difﬁcult to understand APIs, and unexpected runtime behavior. Several gradual type systems have been proposed, e.g., Flow and TypeScript, but they rely on developers to annotate code with types. This paper presents NL2Type, a learning-based approach for predicting likely type signatures of JavaScript functions. The key idea is to exploit natural language information in source code, such as comments, function names, and parameter names, a rich source of knowledge that is typically ignored by type inference algorithms. We formulate the problem of predicting types as a classiﬁcation problem and train a recurrent, LSTM-based neural model that, after learning from an annotated code base, predicts function types for unannotated code. We evaluate the approach with a corpus of 162,673 JavaScript ﬁles from real-world projects. NL2Type predicts types with a precision of 84.1% and a recall of 78.9% when considering only the top-most suggestion, and with a precision of 95.5% and a recall of 89.6% when considering the top-5 suggestions. The approach outperforms both JSNice, a state-of-the-art approach that analyzes implementations of functions instead of natural language information, and DeepTyper, a recent type prediction approach that is also based on deep learning. Beyond predicting types, NL2Type serves as a consistency checker for existing type annotations. We show that it discovers 39 inconsistencies that deserve developer attention (from a manual analysis of 50 warnings), most of which are due to incorrect type annotations.</dcterms:abstract>
+        <dc:date>5/2019</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>NL2Type</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/8811893/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-07 14:14:53</dcterms:dateSubmitted>
+        <bib:pages>304-315</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_50">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Malik et al. - 2019 - NL2Type Inferring JavaScript Function Types from .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_53">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shcherbakov</foaf:surname>
+                        <foaf:givenName>Mikhail</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Balliu</foaf:surname>
+                        <foaf:givenName>Musard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Staicu</foaf:surname>
+                        <foaf:givenName>Cristian-Alexandru</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_52"/>
+        <dc:title>Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js</dc:title>
+        <dcterms:abstract>Prototype pollution is a dangerous vulnerability affecting prototype-based languages like JavaScript and the Node.js platform. It refers to the ability of an attacker to inject properties into an object’s root prototype at runtime and subsequently trigger the execution of legitimate code gadgets that access these properties on the object’s prototype, leading to attacks such as Denial of Service (DoS), privilege escalation, and Remote Code Execution (RCE). While there is anecdotal evidence that prototype pollution leads to RCE, current research does not tackle the challenge of gadget detection, thus only showing feasibility of DoS attacks, mainly against Node.js libraries. In this paper, we set out to study the problem in a holistic way, from the detection of prototype pollution to detection of gadgets, with the ambitious goal of finding end-to-end exploits beyond DoS, in full-fledged Node.js applications. We build the first multi-staged framework that uses multilabel static taint analysis to identify prototype pollution in Node.js libraries and applications, as well as a hybrid approach to detect universal gadgets, notably, by analyzing the Node.js source code. We implement our framework on top of GitHub’s static analysis framework CodeQL to find 11 universal gadgets in core Node.js APIs, leading to code execution. Furthermore, we use our methodology in a study of 15 popular Node.js applications to identify prototype pollutions and gadgets. We manually exploit eight RCE vulnerabilities in three high-profile applications such as NPM CLI, Parse Server, and Rocket.Chat. Our results provide alarming evidence that prototype pollution in combination with powerful universal gadgets lead to RCE in Node.js.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_52">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Shcherbakov et al. - Silent Spring Prototype Pollution Leads to Remote.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_55">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>web ..</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brar</foaf:surname>
+                        <foaf:givenName>Harkirat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kaur</foaf:surname>
+                        <foaf:givenName>TaranPreet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rajoria</foaf:surname>
+                        <foaf:givenName>Yash</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_54"/>
+        <dc:title>The Better Comparison between PHP, Python-web &amp; Node.js</dc:title>
+        <dcterms:abstract>Large scale, high concurrency, and a vast quantity of data are important trends for the new age of websites. Node.js becomes popular and flourishing to build data-intensive web applications. To analyze and examine the performance of Node.js, Python-Web, and PHP, we used benchmark tests and scenario tests. The test results yield some valuable enforcement data, showing that PHP and Python-Web manage much fewer requests than that Node.js in a certain time. In conclusion, our results demonstrate that Node.js is quite lightweight and effective, which is an ideal fit for I/O intense websites among the three, while PHP is only fitting for small and middle scale applications, and Python-Web is developer-friendly and good for large web structures. To the best of our experience, to judge these Web programming technologies with both objective methodical tests (benchmark) and realistic user behavior tests (scenario), especially taking Node.js as the main topic to talk about.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_54">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Brar et al. - The Better Comparison between PHP, Python-web &amp; No.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_57">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Romanelli</foaf:surname>
+                        <foaf:givenName>Alessandro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Serbout</foaf:surname>
+                        <foaf:givenName>Souhaila</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pautasso</foaf:surname>
+                        <foaf:givenName>Cesare</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_56"/>
+        <dc:title>ExpressO: From Express.js implementation code to OpenAPI interface descriptions</dc:title>
+        <dcterms:abstract>This tool demo paper brings forward a new CLI tool called ExpressO for developers who need to analyze a Web API implemented using the Express.js framework, and automatically extract a specification written in OpenAPI, a standard interface description language. The generated specification includes all of the implemented endpoints along with their response status codes and path and query parameters. In addition to automatic API documentation generation, developers can also use it to automatically determine whether the interface of a Web API matches its implementation based on the Express.js framework. The tool has been released on the npm component registry as ‘expresso-api’, and can be globally installed using the command: npm install -g expresso-api.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_56">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Romanelli et al. - ExpressO From Express.js implementation code to O.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s00778-019-00578-5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1066-8888,%200949-877X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langdale</foaf:surname>
+                        <foaf:givenName>Geoff</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lemire</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_58"/>
+        <dc:title>Parsing gigabytes of JSON per second</dc:title>
+        <dcterms:abstract>JavaScript Object Notation or JSON is a ubiquitous data exchange format on the web. Ingesting JSON documents can become a performance bottleneck due to the sheer volume of data. We are thus motivated to make JSON parsing as fast as possible. Despite the maturity of the problem of JSON parsing, we show that substantial speedups are possible. We present the ﬁrst standard-compliant JSON parser to process gigabytes of data per second on a single core, using commodity processors. We can use a quarter or fewer instructions than a state-of-the-art reference parser like RapidJSON. Unlike other validating parsers, our software (simdjson) makes extensive use of single instruction and multiple data instructions. To ensure reproducibility, simdjson is freely available as open-source software under a liberal license.</dcterms:abstract>
+        <dc:date>12/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s00778-019-00578-5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-07 16:42:34</dcterms:dateSubmitted>
+        <bib:pages>941-960</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1066-8888,%200949-877X">
+        <prism:volume>28</prism:volume>
+        <dc:title>The VLDB Journal</dc:title>
+        <dc:identifier>DOI 10.1007/s00778-019-00578-5</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>The VLDB Journal</dcterms:alternative>
+        <dc:identifier>ISSN 1066-8888, 0949-877X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_58">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Langdale and Lemire - 2019 - Parsing gigabytes of JSON per second.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://journals.sagepub.com/doi/10.3102/1076998619832248">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1076-9986,%201935-1054"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hao</foaf:surname>
+                        <foaf:givenName>Jiangang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ho</foaf:surname>
+                        <foaf:givenName>Tin Kam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_60"/>
+        <dc:title>Machine Learning Made Easy: A Review of &lt;i&gt;Scikit-learn&lt;/i&gt; Package in Python Programming Language</dc:title>
+        <dcterms:abstract>Machine learning is a popular topic in data analysis and modeling. Many different machine learning algorithms have been developed and implemented in a variety of programming languages over the past 20 years. In this article, we first provide an overview of machine learning and clarify its difference from statistical inference. Then, we review Scikit-learn, a machine learning package in the Python programming language that is widely used in data science. The Scikit-learn package includes implementations of a comprehensive list of machine learning methods under unified data and modeling procedure conventions, making it a convenient toolkit for educational and behavior statisticians.</dcterms:abstract>
+        <dc:date>06/2019</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Machine Learning Made Easy</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://journals.sagepub.com/doi/10.3102/1076998619832248</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-08 09:46:20</dcterms:dateSubmitted>
+        <bib:pages>348-361</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1076-9986,%201935-1054">
+        <prism:volume>44</prism:volume>
+        <dc:title>Journal of Educational and Behavioral Statistics</dc:title>
+        <dc:identifier>DOI 10.3102/1076998619832248</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Journal of Educational and Behavioral Statistics</dcterms:alternative>
+        <dc:identifier>ISSN 1076-9986, 1935-1054</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_60">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hao and Ho - 2019 - Machine Learning Made Easy A Review of Scikit-.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2003.07082">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qi</foaf:surname>
+                        <foaf:givenName>Peng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Yuhao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Yuhui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bolton</foaf:surname>
+                        <foaf:givenName>Jason</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manning</foaf:surname>
+                        <foaf:givenName>Christopher D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_64"/>
+        <link:link rdf:resource="#item_62"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Stanza: A Python Natural Language Processing Toolkit for Many Human Languages</dc:title>
+        <dcterms:abstract>We introduce Sta n z a , an open-source Python natural language processing toolkit supporting 66 human languages. Compared to existing widely used toolkits, Sta n z a features a language-agnostic fully neural pipeline for text analysis, including tokenization, multiword token expansion, lemmatization, part-ofspeech and morphological feature tagging, dependency parsing, and named entity recognition. We have trained Sta n z a on a total of 112 datasets, including the Universal Dependencies treebanks and other multilingual corpora, and show that the same neural architecture generalizes well and achieves competitive performance on all languages tested. Additionally, Sta n z a includes a native Python interface to the widely used Java Stanford CoreNLP software, which further extends its functionality to cover other tasks such as coreference resolution and relation extraction. Source code, documentation, and pretrained models for 66 languages are available at https:// stanfordnlp.github.io/stanza/.</dcterms:abstract>
+        <dc:date>2020-04-23</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Stanza</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2003.07082</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-08 17:08:34</dcterms:dateSubmitted>
+        <dc:description>arXiv:2003.07082 [cs]</dc:description>
+        <prism:number>arXiv:2003.07082</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_64">
+        <rdf:value>Comment: ACL2020 System Demonstration. First two authors contribute equally. Website: https://stanfordnlp.github.io/stanza</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_62">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Qi et al. - 2020 - Stanza A Python Natural Language Processing Toolk.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0190740920313992">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:01907409"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pal</foaf:surname>
+                        <foaf:givenName>Debajyoti</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vanijja</foaf:surname>
+                        <foaf:givenName>Vajirasak</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_65"/>
+        <dc:title>Perceived usability evaluation of Microsoft Teams as an online learning platform during COVID-19 using system usability scale and technology acceptance model in India</dc:title>
+        <dcterms:abstract>The COVID-19 pandemic has resulted in a physical shutdown of all types of educational institutes worldwide due to which the education delivery has now shifted to an “online only” exclusivity model. In this perspective, perceived usability of the online learning platforms that are currently being used is an important aspect, especially due to the absence of any physical classes. In this work Microsoft Teams is used as the reference platform for which the perceived usability is evaluated. For the evaluation purpose a dual strategy is followed by using the System Usability Scale (SUS), which is a Human Computer Interaction (HCI) based approach, and the Technology Acceptance Model (TAM), which is an Information Systems (IS) based approach. Although both these instruments are popular in their respective domains, yet they have not been considered simultaneously in one work for the purpose of usability evaluation. By doing so, this work attempts to streamline and unify the process of usability evaluation. Results that are obtained from a large-scale survey of university students show the similarity and equivalency between the two methodologies, with the Perceived Ease of Use (PEOU) construct of TAM having greater similarity with SUS. Moreover, this work also considers the digital-divide aspect (mobile vs. web environment) that is prevalent particularly in developing countries like India, and whether it has any effect on the perceived usability. Results show that the consumption platform does not have any effect on the usability aspect.</dcterms:abstract>
+        <dc:date>12/2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0190740920313992</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-08 17:43:19</dcterms:dateSubmitted>
+        <bib:pages>105535</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:01907409">
+        <prism:volume>119</prism:volume>
+        <dc:title>Children and Youth Services Review</dc:title>
+        <dc:identifier>DOI 10.1016/j.childyouth.2020.105535</dc:identifier>
+        <dcterms:alternative>Children and Youth Services Review</dcterms:alternative>
+        <dc:identifier>ISSN 01907409</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_65">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Pal and Vanijja - 2020 - Perceived usability evaluation of Microsoft Teams .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.tandfonline.com/doi/full/10.1080/15391523.2020.1867938">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1539-1523,%201945-0818"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vlachogianni</foaf:surname>
+                        <foaf:givenName>Prokopia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tselios</foaf:surname>
+                        <foaf:givenName>Nikolaos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_67"/>
+        <dc:title>Perceived usability evaluation of educational technology using the System Usability Scale (SUS): A systematic review</dc:title>
+        <dcterms:abstract>This article presents the findings of a systematic review of perceived usability of educational technology systems. The research was conducted after studying, organizing, and analyzing the results of 104 research papers evaluating perceived usability of educational technologies using the System Usability Scale (SUS). The results were organized on the basis of (a) the usability score obtained when using the SUS, (b) the type of educational technology used, (c) the subject being learned, (d) the level of education, (e) the type of participant, (f) the age, and (g) the number of participants in each survey. Statistical analysis in all surveys (N ¼ 170) demonstrated a good level of usability but with some issues (M ¼ 70.09, SD ¼ 12.98). The categories of Internet platforms (M ¼ 66.25, SD ¼ 12.42), university websites (M ¼ 63.82, SD ¼ 16.52) and affective tutoring systems (ATS) (M ¼ 68.87, SD ¼ 7.30) seem to have a good usability level according to SUS, preceded by mobile applications (M ¼ 73.62, SD ¼ 13.49) and multimedia (M ¼ 76.43, SD ¼ 9.45). Moreover, SUS scores were not found to be significantly related with participants’ age (r ¼ 0.017, p ¼ 0.931, ns), stage of education (p ¼ 0.539, ns), or the type of participants (p ¼ 0.639, ns). Furthermore, the subject being learned (p ¼ 0.038, s) and the number of participants in each survey (r ¼ À0.259, p ¼ 0.001, s) seem to relate to the obtained SUS scores. A slight, statistically insignificant improvement is noted in the perceived usability over the years (p ¼ 0.182, ns). The findings of this review will serve as a useful reference guide for educational technology designers, practitioners, and teachers.</dcterms:abstract>
+        <dc:date>2022-05-27</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Perceived usability evaluation of educational technology using the System Usability Scale (SUS)</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tandfonline.com/doi/full/10.1080/15391523.2020.1867938</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-08 17:48:08</dcterms:dateSubmitted>
+        <bib:pages>392-409</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1539-1523,%201945-0818">
+        <prism:volume>54</prism:volume>
+        <dc:title>Journal of Research on Technology in Education</dc:title>
+        <dc:identifier>DOI 10.1080/15391523.2020.1867938</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Journal of Research on Technology in Education</dcterms:alternative>
+        <dc:identifier>ISSN 1539-1523, 1945-0818</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_67">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Vlachogianni and Tselios - 2022 - Perceived usability evaluation of educational tech.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_70">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><prism:volume>6</prism:volume></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hidayat</foaf:surname>
+                        <foaf:givenName>Taufik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muttaqin</foaf:surname>
+                        <foaf:givenName>Mahmudin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_69"/>
+        <dc:title>Pengujian Sistem Informasi Pendaftaran dan Pembayaran Wisuda Online menggunakan Black Box Testing dengan Metode Equivalence Partitioning dan Boundary Value Analysis</dc:title>
+        <dcterms:abstract>The Information System is an association consisting of several integrated modules which present information and data processing to be presented in accordance with the needs of users, databases, source code and design models represent the strands of an information system design useful to facilitate development and maintenance. Graduation is a series of planned and systematic activities of an activity of a university in the release of students who have been declared graduated and registered with the graduates. The graduation ceremony at Syekh-Yusuf Islamic University was held once a year precisely in November, at the UNIS the graduation ceremony was already using an online application integrated with siakad (SINA). Students can input graduation data if they have completed the requirements. Black Box testing is the testing of an applicatio n that discusses the outer side of a software application, which starts from the display to the input action, in the Black Box testing strategy has several methods including Equivalence Partitioning, Boundary Value Analysis. Equivalence Partitioning examines testing in the aspect of input validation seen from Valid Class, Observing input contents and input accuracy. Boundary Value Analysis discusses Black Box testing in the overall menu and module aspects, so that the error side can be identified.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:language>id</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_69">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hidayat and Muttaqin - 2018 - Pengujian Sistem Informasi Pendaftaran dan Pembaya.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_72">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lundmark</foaf:surname>
+                        <foaf:givenName>Olle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_71"/>
+        <dc:title>Responsive Web Design for Modern Devices</dc:title>
+        <dcterms:abstract>A new device gets released almost bi-weekly, some oﬀering a unique take on resolution or aspect ratio. For a web developer, this means that they have to constantly adapt and respond to how modern devices interact with the web, and create solutions that work for the visitors. This puts a lot of pressure on the developer to create a good, responsive webpage that is not expecting a certain device, but rather works ﬂuently no matter the exact size of device. In this study this development is researched and discussed, from the viewpoint of what the diﬀerences are between established and future devices, what developments that might arise tomorrow and how to react to these as a developer. The goal is also to research what methods of responsive web development works best with these devices, and what might become an issue when newer devices are released and becoming widely used. The research is split up into two parts, one part comparing three popular frameworks and their responsiveness-related functions and the second part reviewing earlier work regarding responsiveness for modern devices. Modern, well developed frameworks oﬀer a lineup of functions for responsive web development, most which integrate well when met with non-standard resolutions or devices with the tradeoﬀ of being more heavyweight and less customizable. Research concluded that modern frameworks are covering most aspects of responsive web development, and oﬀers a good base to implement responsive web development for future devices. Developing from having two diﬀerent webpages, one mobile and one for a home PC, now almost every large webpage implements a responsive and adaptable interface which ﬁts many more devices without slotting them into a speciﬁc niche. After this became standard, more and more unique devices could reliably browse the web. What is left is a discussion regarding what the future might hold in the case of other input devices such as voice input, small displays such as smart watch displays, and how this technique can be adapted to handle these devices as well.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_71">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Lundmark - Responsive Web Design for Modern Devices.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.un.org/en/global-issues/population">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nations</foaf:surname>
+                        <foaf:givenName>United</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Population</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.un.org/en/global-issues/population</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-12-25</dcterms:dateSubmitted>
+        <z:type>Organization</z:type>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.bps.go.id/indicator/12/1975/1/jumlah-penduduk-pertengahan-tahun.html">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Statistik</foaf:surname>
+                        <foaf:givenName>Badan Pusat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Jumlah Penduduk Pertengahan Tahun (Ribu Jiwa), 2020-2022</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.bps.go.id/indicator/12/1975/1/jumlah-penduduk-pertengahan-tahun.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-12-26</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.bps.go.id/indikator/indikator/view_data_pub/0000/api_pub/YW40a21pdTU1cnJxOGt6dm43ZEdoZz09/da_03/1">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Statistik</foaf:surname>
+                        <foaf:givenName>Badan Pusat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Jumlah Penduduk Menurut Kelompok Umur dan Jenis Kelamin, 2021</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.bps.go.id/indikator/indikator/view_data_pub/0000/api_pub/YW40a21pdTU1cnJxOGt6dm43ZEdoZz09/da_03/1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-12-26</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_76">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>HasilTurnitinHubunganTeoriBelajardenganTeknologiPendidikan.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_77">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Bahan bacaan.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://journals.ums.ac.id/index.php/bppp/article/view/9791">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2721-3404"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Amir</foaf:surname>
+                        <foaf:givenName>Muhammad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_78"/>
+        <dc:title>Implementasi Pendidikan Karakter Religius pada Siswa melalui Kegiatan Tahsin Tahfidzul Quran dengan Metode Tsaqifa</dc:title>
+        <dcterms:abstract>Penelitian ini bertujuan mendeskripsikan (1) Penerapan kegiatan tahsin tahfidzul quran dengan metode tsaqifa dalam pembelajaran Alquran di SMK Muhammadiyah 3 Surakarta. (2) Faktor pendukung dan penghambat penerapan metode tsaqifa, serta (3) Hasil dalam kegiatan tahsin dan tahfidzul quran menggunakan metode tsaqifa. Metode penelitian yang digunakan adalah deskriptif kualitatif. Sumber data dalam penelitian ini adalah guru, siswa, dan proses pembelajaran mata pelajaran   Alquran   di   SMK   Muhammadiyah   3   Surakarta.   Objek penelitian ini adalah hasil dari metode pengajaran  yang digunakan guru dalam pembelajaran Alquran. Pengumpulan data menggunakan teknik wawancara, observasi, dan dokumentasi. Implementasi metode tahsin dan tahfidzul qurna dengan metode tsaqifa dalam pembelajaran membaca Alquran disesuaikan dengan tingkat bacaan siswa dan tetap menggunakan strategi dan metode pembelajaran. Strategi pembelajaran yang dimaksud adalah secara individual, baca simak, tutor sebaya dengan  menggunakan    metode  tsaqifa,  adalah metode ini  dirancang khusus  untuk  orang  yang  belum  pernah  belajar  Alquran  atau  yang pernah belajar tetapi masih terbata-bata bacaannya. Faktor penghambat yaitu masih banyaknya kemampuan bacaan Alquran masih terbata-bata, kurangnya ketertarikan untuk belajar Alquran, dan kurangnya sarana prasarana. Faktor pendukung yaitu faktor internal adalah faktor yang muncul  dari  pribadi  siswa sendiri,  dan  faktor  eksternal  yaitu  faktor keluarga, institusional, dan lingkungan sekolah. Untuk mengatasi setiap permasalahan atau faktor penghambat tersebut masih dikaji untuk ditemukan solusi yang tepat. Pengkajian dilakukan melalui monitoring dan evaluasi yang dilakukan oleh Guru Pendidikan Agama Islam dan Pimpinan atau Kepala Sekolah.</dcterms:abstract>
+        <dc:date>2019-10-18</dc:date>
+        <z:language>id</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.ums.ac.id/index.php/bppp/article/view/9791</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-09 19:21:17</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2721-3404">
+        <prism:volume>1</prism:volume>
+        <dc:title>Buletin Pengembangan Perangkat Pembelajaran</dc:title>
+        <dc:identifier>DOI 10.23917/bppp.v1i1.9791</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>bppp</dcterms:alternative>
+        <dc:identifier>ISSN 2721-3404</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_78">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Amir - 2019 - Implementasi Pendidikan Karakter Religius pada Sis.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_81">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <prism:volume>2</prism:volume><prism:number>4</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oktariano</foaf:surname>
+                        <foaf:givenName>Febry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hastuti</foaf:surname>
+                        <foaf:givenName>Hera</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_80"/>
+        <dc:title>Buku Panduan penulisan Esai Berdasarkan Analisis Historical Thinking</dc:title>
+        <dcterms:abstract>This research is discussing the product guidebook writing history essays backed from ignorance of students on how to write history essays and assignment by the teacher is only a duty of papers and summarizes the material in the notebook to achieve core competency-4 on the learning of history. Based on the results of observations and interviews, students do not know what the historical essays are and how to write them. The student's presumption of historical essays are historical questions. The research aims to produce a product of essay writing guidebooks based on Historical Thinking analyses that help students in writing historical essays and developing student writing skills. The method used in this research is R&amp;D (Research &amp; Development) with the model 4D.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>id</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_80">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Oktariano and Hastuti - 2020 - Buku Panduan penulisan Esai Berdasarkan Analisis H.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_83">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><prism:volume>8</prism:volume></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yana</foaf:surname>
+                        <foaf:givenName>Karmila Fitri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mu’arofah</foaf:surname>
+                        <foaf:givenName>Lailatul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Robbaniyah</foaf:surname>
+                        <foaf:givenName>Inayatur</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_82"/>
+        <dc:title>KAJIAN YURIDIS REGULASI HUKUM PROGRAM KEBIJAKAN WAJIB BELAJAR 12 TAHUN SEBAGAI UPAYA PENANGGULANGAN PERKAWINAN ANAK DI BAWAH UMUR</dc:title>
+        <dcterms:abstract>Jusuf Kalla. The approach method used is normative juridical and the data obtained through library research and field studies are analyzed qualitatively normatively. The results of the study show that Indonesia does not yet have a strong legal umbrella related to increasing compulsory education to 12 years, in relation to eradicating underage marriages, the new compulsory education supports the implementation of Law Number 1 of 1974 concerning Marriage in determining the age limit for marriage for women but it is not enough to eradicate underage marriages as a whole because it is known that many marriages occur among vulnerable children aged 16-17 years. In connection with the large number of underage marriages in Indonesia that are occurring, it is necessary to support legal provisions that regulate the increase in compulsory education to 12 years, so that there is a policy that requires a child to complete his education up to the age of 18.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <z:language>id</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_82">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Yana et al. - 2022 - KAJIAN YURIDIS REGULASI HUKUM PROGRAM KEBIJAKAN WA.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12506/2661778/Improvement-of-Excel-data-processing-function-based-on-Spring-MVC/10.1117/12.2661778.full">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-5106-6124-0 978-1-5106-6125-7</dc:identifier>
+                <dc:title>Third International Conference on Computer Science and Communication Technology (ICCSCT 2022)</dc:title>
+                <dc:identifier>DOI 10.1117/12.2661778</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Beijing, China</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>SPIE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>chang</foaf:surname>
+                        <foaf:givenName>xinyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>jing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lu</foaf:surname>
+                        <foaf:givenName>Yingfa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Changbo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_84"/>
+        <dc:title>Improvement of Excel data processing function based on Spring MVC framework</dc:title>
+        <dcterms:abstract>Excel is widely used due to its continuous improvement and development on Excel function. But with the development of science and technology and the subsequent increasing data amount of to be processed, the problem that excel still lacks of batch data processing and data verification is challenging. Based on Spring MVC + EasyUI framework, we proposed a Java J2EE IDE integrated development environment. An independent Java Development Kit was designed, which is able to be embedded into Excel. Using Json to transform the results of Java background processing into data that can be processed by the front-end, we realized the batch import and export of Excel data and data verification functions, which ensured the completeness and accuracy of the data entered while retaining the convenience of Excel.</dcterms:abstract>
+        <dc:date>2022-12-29</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12506/2661778/Improvement-of-Excel-data-processing-function-based-on-Spring-MVC/10.1117/12.2661778.full</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-29 06:12:21</dcterms:dateSubmitted>
+        <bib:pages>25</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>International Conference on Computer Science and Communication Technology (ICCSCT 2022)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_84">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>chang and Li - 2022 - Improvement of Excel data processing function base.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-5090-3378-2">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-5090-3378-2</dc:identifier>
+                <dc:title>2017 International Conference on Algorithms, Methodology, Models and Applications in Emerging Technologies (ICAMMAET)</dc:title>
+                <dc:identifier>DOI 10.1109/ICAMMAET.2017.8186633</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Chennai</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chitra</foaf:surname>
+                        <foaf:givenName>Lakshmi Prasanna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Satapathy</foaf:surname>
+                        <foaf:givenName>Ravikanth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_86"/>
+        <dc:title>Performance comparison and evaluation of Node.js and traditional web server (IIS)</dc:title>
+        <dcterms:abstract>As the technological needs increase there is an increase in the necessity for information of users using the internet that has lead to the development of real-time web services. This paper analyses the differences of Node.js compared to traditional web server- IIS. Node provides a high performance, asynchronous event-based server. Node.js is event-based and uses single thread for its event loop, which allows developers to use asynchronous interfaces to do I/O operations. Traditional Web servers (IIS) follow the multiple thread request model. This paper shows how the architectural choices of Node.js and traditional web server brings an affect in the way applications perform that run on them. Web services operate over network throughput which is considered as a metric parameter for evaluation. They are developed both in node.js as well as in .NET which are hosted in Internet Information Services (IIS Server). Systematic tests are performed presenting different scenarios to make a comparison of the performance of Node and IIS. The performance evaluation results show some valuable performance data of Node and IIS Server in a certain time. The results show that lightweight and efficient nature of Node.js. A web server environment which can perform in heavily can be built with node. Hence it is good for developing web-service APIs.</dcterms:abstract>
+        <dc:date>2/2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/8186633/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-03 12:37:45</dcterms:dateSubmitted>
+        <bib:pages>1-4</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2017 International Conference on Algorithms, Methodology, Models and Applications in Emerging Technologies (ICAMMAET)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_86">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Chitra and Satapathy - 2017 - Performance comparison and evaluation of Node.js a.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_1">
+        <dc:title>Datmin</dc:title>
+        <dcterms:hasPart rdf:resource="http://www.erciyesmedj.com/jvi.aspx?un=EMJ-99836&amp;volume="/>
+        <dcterms:hasPart rdf:resource="https://journal.umkendari.ac.id/index.php/decode/article/view/48"/>
+        <dcterms:hasPart rdf:resource="https://ejournal.stikku.ac.id/index.php/stikku/article/view/343"/>
+        <dcterms:hasPart rdf:resource="#item_8"/>
+        <dcterms:hasPart rdf:resource="#item_9"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-4842-2942-2%20978-1-4842-2943-9"/>
+        <dcterms:hasPart rdf:resource="http://www.ijcaonline.org/archives/volume179/number46/khawas-2018-ijca-917200.pdf"/>
+        <dcterms:hasPart rdf:resource="http://www.iaescore.com/journals/index.php/IJECE/article/view/443"/>
+        <dcterms:hasPart rdf:resource="#item_16"/>
+        <dcterms:hasPart rdf:resource="#item_17"/>
+        <dcterms:hasPart rdf:resource="https://www.tandfonline.com/doi/full/10.1057/ejis.2010.47"/>
+        <dcterms:hasPart rdf:resource="https://www.tandfonline.com/doi/full/10.1080/10447318.2018.1455307"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_3">
+        <dc:title>KSI Tugas 1</dc:title>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-5090-3378-2"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_2">
+        <dc:title>TA</dc:title>
+        <dcterms:hasPart rdf:resource="#item_24"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-5106-6124-0%20978-1-5106-6125-7"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1907.11907"/>
+        <dcterms:hasPart rdf:resource="#item_31"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S2214785320324159"/>
+        <dcterms:hasPart rdf:resource="https://www.ijtsrd.com/computer-science/other/23698/comparative-study-of-test-driven-development-tdd-behavior-driven-development-bdd-and--acceptance-test–driven-development-atdd/myint-myint-moe"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-72810-851-3"/>
+        <dcterms:hasPart rdf:resource="https://developer.ibm.com/articles/5-steps-of-test-driven-development/"/>
+        <dcterms:hasPart rdf:resource="http://www.inass.org/2021/2021022846.pdf"/>
+        <dcterms:hasPart rdf:resource="https://jusst.org/novel-approach-to-transform-uml-sequence-diagram-to-activity-diagram/"/>
+        <dcterms:hasPart rdf:resource="https://link.springer.com/10.1007/s11334-021-00389-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-72810-869-8"/>
+        <dcterms:hasPart rdf:resource="#item_53"/>
+        <dcterms:hasPart rdf:resource="#item_55"/>
+        <dcterms:hasPart rdf:resource="#item_57"/>
+        <dcterms:hasPart rdf:resource="http://link.springer.com/10.1007/s00778-019-00578-5"/>
+        <dcterms:hasPart rdf:resource="http://journals.sagepub.com/doi/10.3102/1076998619832248"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2003.07082"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0190740920313992"/>
+        <dcterms:hasPart rdf:resource="https://www.tandfonline.com/doi/full/10.1080/15391523.2020.1867938"/>
+        <dcterms:hasPart rdf:resource="#item_70"/>
+        <dcterms:hasPart rdf:resource="#item_72"/>
+        <dcterms:hasPart rdf:resource="https://www.un.org/en/global-issues/population"/>
+        <dcterms:hasPart rdf:resource="https://www.bps.go.id/indicator/12/1975/1/jumlah-penduduk-pertengahan-tahun.html"/>
+        <dcterms:hasPart rdf:resource="https://www.bps.go.id/indikator/indikator/view_data_pub/0000/api_pub/YW40a21pdTU1cnJxOGt6dm43ZEdoZz09/da_03/1"/>
+        <dcterms:hasPart rdf:resource="https://journals.ums.ac.id/index.php/bppp/article/view/9791"/>
+        <dcterms:hasPart rdf:resource="#item_81"/>
+        <dcterms:hasPart rdf:resource="#item_83"/>
+    </z:Collection>
+</rdf:RDF>
