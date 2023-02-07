@@ -1,3 +1,7 @@
+/* ELEMENTS */
+
+/* CLASSES */
+
 .form_language {
   /* display: block; */
   /* width: 100%; */
@@ -32,4 +36,9 @@
 
 .select_local {
   width: fit-content;
+}
+
+.service_explanation {
+  text-align: justify;
+  margin: 1rem;
 }
