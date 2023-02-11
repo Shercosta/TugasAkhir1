@@ -2100,6 +2100,231 @@
         <dc:title>Chitra and Satapathy - 2017 - Performance comparison and evaluation of Node.js a.pdf</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <rdf:Description rdf:about="http://aclweb.org/anthology/N18-1021">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 2018 Conference of the North American Chapter of           the Association for Computational Linguistics: Human Language           Technologies, Volume 1 (Long Papers)</dc:title>
+                <dc:identifier>DOI 10.18653/v1/N18-1021</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New Orleans, Louisiana</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Amorim</foaf:surname>
+                        <foaf:givenName>Evelin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cançado</foaf:surname>
+                        <foaf:givenName>Marcia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Veloso</foaf:surname>
+                        <foaf:givenName>Adriano</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_88"/>
+        <dc:title>Automated Essay Scoring in the Presence of Biased Ratings</dc:title>
+        <dcterms:abstract>Studies in Social Sciences have revealed that when people evaluate someone else, their evaluations often reﬂect their biases. As a result, rater bias may introduce highly subjective factors that make their evaluations inaccurate. This may affect automated essay scoring models in many ways, as these models are typically designed to model (potentially biased) essay raters. While there is sizeable literature on rater effects in general settings, it remains unknown how rater bias affects automated essay scoring. To this end, we present a new annotated corpus containing essays and their respective scores. Different from existing corpora, our corpus also contains comments provided by the raters in order to ground their scores. We present features to quantify rater bias based on their comments, and we found that rater bias plays an important role in automated essay scoring. We investigated the extent to which rater bias affects models based on hand-crafted features. Finally, we propose to rectify the training set by removing essays associated with potentially biased scores while learning the scoring model.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://aclweb.org/anthology/N18-1021</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-07 14:13:19</dcterms:dateSubmitted>
+        <bib:pages>229-237</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>Proceedings of the 2018 Conference of the North American Chapter of           the Association for Computational Linguistics: Human Language           Technologies, Volume 1 (Long Papers)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_88">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Amorim et al. - 2018 - Automated Essay Scoring in the Presence of Biased .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-989-98434-8-6">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-989-98434-8-6</dc:identifier>
+                <dc:title>2018 13th Iberian Conference on Information Systems and Technologies (CISTI)</dc:title>
+                <dc:identifier>DOI 10.23919/CISTI.2018.8399228</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Caceres</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fortunato</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bernardino</foaf:surname>
+                        <foaf:givenName>Jorge</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_90"/>
+        <dc:title>Progressive web apps: An alternative to the native mobile Apps</dc:title>
+        <dc:date>6/2018</dc:date>
+        <z:language>pt</z:language>
+        <z:shortTitle>Progressive web apps</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/8399228/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-08 13:13:09</dcterms:dateSubmitted>
+        <bib:pages>1-6</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2018 13th Iberian Conference on Information Systems and Technologies (CISTI)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_90">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Fortunato and Bernardino - 2018 - Progressive web apps An alternative to the native.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_92">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>document.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_94">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><prism:volume>5</prism:volume></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Firdaus</foaf:surname>
+                        <foaf:givenName>Ali</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Widodo</foaf:surname>
+                        <foaf:givenName>Slamet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sutrisman</foaf:surname>
+                        <foaf:givenName>Adi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nasution</foaf:surname>
+                        <foaf:givenName>Sutan Gading Fadhillah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mardiana</foaf:surname>
+                        <foaf:givenName>Rina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_93"/>
+        <dc:title>RANCANG BANGUN SISTEM INFORMASI PERPUSTAKAAN MENGGUNAKAN WEB SERVICE PADA JURUSAN TEKNIK KOMPUTER POLSRI</dc:title>
+        <dc:date>2019</dc:date>
+        <z:language>id</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_93">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Firdaus et al. - 2019 - RANCANG BANGUN SISTEM INFORMASI PERPUSTAKAAN MENGG.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S1319157818312394">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:13191578"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ismail</foaf:surname>
+                        <foaf:givenName>Abid</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kuppusamy</foaf:surname>
+                        <foaf:givenName>K.S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_95"/>
+        <dc:title>Web accessibility investigation and identification of major issues of higher education websites with statistical measures: A case study of college websites</dc:title>
+        <dcterms:abstract>The World Wide Web Consortium (W3C) has provided the most important set of guidelines for web accessibility which is popularly known as Web Content Accessibility Guidelines (WCAG). The accessibility analysis of higher education websites becomes paramount important to make them inclusive considering the growing number of enrollments of persons with disabilities (PwDs) in higher education, in countries such as India. This paper presents the accessibility analysis of higher education websites with the case study of college websites (N ¼ 44) afﬁliated with the University of Kashmir and Cluster University Srinagar. The study has been carried out with two major accessibility evaluation tools called web accessibility test, denoted as TAW and the accessibility engine powering browser extensions called the accessibility engine, denoted as aXe. This paper lists the major accessibility barriers exposed by these sites in terms of metrics such as a number of problems, warnings and a status of success criteria violations. With respect to TAW tool, a number of problems observed were 2646, a large number of warnings to the scale of 15995 and the not reviewed items were 1356. With aXe tool, the total violations observed were 1951 and items needing review were 1733. Findings of the statistical analysis are also presented in this paper. This paper presents a roadmap of steps for making these websites inclusive and barrier-free for PwDs.</dcterms:abstract>
+        <dc:date>03/2022</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Web accessibility investigation and identification of major issues of higher education websites with statistical measures</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S1319157818312394</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-11 06:50:58</dcterms:dateSubmitted>
+        <bib:pages>901-911</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:13191578">
+        <prism:volume>34</prism:volume>
+        <dc:title>Journal of King Saud University - Computer and Information Sciences</dc:title>
+        <dc:identifier>DOI 10.1016/j.jksuci.2019.03.011</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Journal of King Saud University - Computer and Information Sciences</dcterms:alternative>
+        <dc:identifier>ISSN 13191578</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_95">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Ismail and Kuppusamy - 2022 - Web accessibility investigation and identification.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Collection rdf:about="#collection_1">
         <dc:title>Datmin</dc:title>
         <dcterms:hasPart rdf:resource="http://www.erciyesmedj.com/jvi.aspx?un=EMJ-99836&amp;volume="/>
@@ -2149,5 +2374,9 @@
         <dcterms:hasPart rdf:resource="https://journals.ums.ac.id/index.php/bppp/article/view/9791"/>
         <dcterms:hasPart rdf:resource="#item_81"/>
         <dcterms:hasPart rdf:resource="#item_83"/>
+        <dcterms:hasPart rdf:resource="http://aclweb.org/anthology/N18-1021"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-989-98434-8-6"/>
+        <dcterms:hasPart rdf:resource="#item_94"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S1319157818312394"/>
     </z:Collection>
 </rdf:RDF>
