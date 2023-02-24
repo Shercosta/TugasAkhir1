@@ -2574,6 +2574,265 @@
         <dc:title>Burrows et al. - 2015 - The Eras and Trends of Automatic Short Answer Grad.pdf</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-0-7695-2829-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-0-7695-2829-8</dc:identifier>
+                <dc:title>Future of Software Engineering (FOSE '07)</dc:title>
+                <dc:identifier>DOI 10.1109/FOSE.2007.20</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Minneapolis, MN</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dearle</foaf:surname>
+                        <foaf:givenName>Alan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_107"/>
+        <dc:title>Software Deployment, Past, Present and Future</dc:title>
+        <dcterms:abstract>This paper examines the dimensions influencing the past and present and speculates on the future of software deployment. Software deployment is a postproduction activity that is performed for or by the customer of a piece of software. Today’s software often consists of a large number of components each offering and requiring services of other components. Such components are often deployed into distributed, heterogeneous environments adding to the complexity of software deployment. This paper sets out a standard terminology for the various deployment activities and the entities over which they operate. Six case studies of current deployment technologies are made to illustrate various approaches to the deployment problems. The paper then examines specific deployment issues in more detail before examining some of the future directions in which the field of deployment might take.</dcterms:abstract>
+        <dc:date>5/2007</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/4221626/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-21 17:49:28</dcterms:dateSubmitted>
+        <bib:pages>269-284</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>Future of Software Engineering (FOSE '07)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_107">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Dearle - 2007 - Software Deployment, Past, Present and Future.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_109">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>302405.302463.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_111">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hall</foaf:surname>
+                        <foaf:givenName>Richard S</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heimbigner</foaf:surname>
+                        <foaf:givenName>Dennis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wolf</foaf:surname>
+                        <foaf:givenName>Alexander L</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_110"/>
+        <dc:title>A Cooperative Approach to Support Software Deployment Using the Software Dock</dc:title>
+        <dcterms:abstract>Software deployment is an evolving collection of interrelated processes such as release, install, adapt, reconfigure, update, activate, deactivate, remove, and retire. The connectivity of large networks, such as the Internet, is affecting how software deployment is performed. It is necessary to introduce new software deployment technologies that leverage this connectivity. The Software Dock framework creates a distributed, agent-based deployment framework to support the ongoing cooperation and negotiation among software producers themselves and among software producers and software consumers. This deployment framework is enabled by the use of a standardized deployment schema for describing software systems, called the Deployable Software Description (DSD) format. The Software Dock also employs agents to traverse between software producers and consumers in order to perform software deployment activities by interpreting the descriptions of software systems. The Software Dock infrastructure allows software producers to offer their customers high-level deployment services that were previously not possible.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_110">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hall et al. - A Cooperative Approach to Support Software Deploym.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-5386-5903-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-5386-5903-8</dc:identifier>
+                <dc:title>2018 IEEE 9th International Conference on Dependable Systems, Services and Technologies (DESSERT)</dc:title>
+                <dc:identifier>DOI 10.1109/DESSERT.2018.8409111</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Kyiv, Ukraine</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Popov</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bilokin</foaf:surname>
+                        <foaf:givenName>Julia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Solianyk</foaf:surname>
+                        <foaf:givenName>Tatiana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vasylchenko</foaf:surname>
+                        <foaf:givenName>Kateryna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_112"/>
+        <dc:title>Development of the system to provide cross-browser compatibility of web application</dc:title>
+        <dc:date>5/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/8409111/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-23 06:11:08</dcterms:dateSubmitted>
+        <bib:pages>117-122</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2018 IEEE 9th International Conference on Dependable Systems, Services and Technologies (DESSERT)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_112">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Popov et al. - 2018 - Development of the system to provide cross-browser.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.tandfonline.com/doi/abs/10.1080/10447318.2002.9669130">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>14</prism:volume>
+                <dc:title>International Journal of Human-Computer Interaction</dc:title>
+                <dc:identifier>DOI 10.1080/10447318.2002.9669130</dc:identifier>
+                <prism:number>3-4</prism:number>
+                <dcterms:alternative>International Journal of Human-Computer Interaction</dcterms:alternative>
+                <dc:identifier>ISSN 1044-7318, 1532-7590</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lewis</foaf:surname>
+                        <foaf:givenName>James R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_114"/>
+        <dc:title>Psychometric Evaluation of the PSSUQ Using Data from Five Years of Usability Studies</dc:title>
+        <dc:date>09/2002</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.tandfonline.com/doi/abs/10.1080/10447318.2002.9669130</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-24 14:43:12</dcterms:dateSubmitted>
+        <bib:pages>463-488</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_114">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Lewis - 2002 - Psychometric Evaluation of the PSSUQ Using Data fr.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://jurnal.umk.ac.id/index.php/simet/article/view/2725">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2549-3108,%202252-4983"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ependi</foaf:surname>
+                        <foaf:givenName>Usman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kurniawan</foaf:surname>
+                        <foaf:givenName>Tri Basuki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Panjaitan</foaf:surname>
+                        <foaf:givenName>Febriyanti</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_116"/>
+        <dc:title>SYSTEM USABILITY SCALE VS HEURISTIC EVALUATION: A REVIEW</dc:title>
+        <dcterms:abstract>Usability merupakan salah satu bidang ilmu untuk menganalisa atau menguji tingkat kemudahan penggunaan perangkat lunak.  Usability atau yang sering dikenal dengan kebergunaan adalah teknik pengujian atau pengukuran aplikasi perangkat lunak yang dilihat dari lima aspek yaitu  learnability, efficiency, memorability, errors dan satisfaction. Untuk melakukan analisa atau pengujian usability dapat dilakukan dengan pendekatan heuristic evaluation (HE) dan system usability scale (SUS). Heuristic evaluation (HE) merupakan pengujian dengan cara melibatkan ahli dalam proses pengerjaannya dan system usability scale (SUS) merupakan pengujian dengan cara melibatkan pengguna akhir (end user) dalam proses pengerjaannya. Untuk itu dalam penelitian dilakukan pengkajian antara heuristic evaluation (HE) dan system usability scale (SUS). Dari hasil kajian didapat bahwa heuristic evaluation (HE) dapat dilakukan bersamaan dengan teknik pengujian lain namun membutuhkan biaya yang besar serta proses pengujian yang lebih mudah. Sedangkan system usability scale (SUS) proses pengujian dan perhitungan lebih rumit namun dapat dilakukan dengan jumlah sampel yang sedikit.</dcterms:abstract>
+        <dc:date>2019-04-01</dc:date>
+        <z:language>id</z:language>
+        <z:shortTitle>SYSTEM USABILITY SCALE VS HEURISTIC EVALUATION</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jurnal.umk.ac.id/index.php/simet/article/view/2725</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-02-24 14:49:11</dcterms:dateSubmitted>
+        <bib:pages>65-74</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2549-3108,%202252-4983">
+        <prism:volume>10</prism:volume>
+        <dc:title>Simetris: Jurnal Teknik Mesin, Elektro dan Ilmu Komputer</dc:title>
+        <dc:identifier>DOI 10.24176/simet.v10i1.2725</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Simet</dcterms:alternative>
+        <dc:identifier>ISSN 2549-3108, 2252-4983</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_116">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Ependi et al. - 2019 - SYSTEM USABILITY SCALE VS HEURISTIC EVALUATION A .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Collection rdf:about="#collection_1">
         <dc:title>Datmin</dc:title>
         <dcterms:hasPart rdf:resource="http://www.erciyesmedj.com/jvi.aspx?un=EMJ-99836&amp;volume="/>
@@ -2632,5 +2891,10 @@
         <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0950584903002040"/>
         <dcterms:hasPart rdf:resource="http://www.tandfonline.com/doi/abs/10.1080/10447310802205776"/>
         <dcterms:hasPart rdf:resource="http://link.springer.com/10.1007/s40593-014-0026-8"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-7695-2829-8"/>
+        <dcterms:hasPart rdf:resource="#item_111"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-5386-5903-8"/>
+        <dcterms:hasPart rdf:resource="http://www.tandfonline.com/doi/abs/10.1080/10447318.2002.9669130"/>
+        <dcterms:hasPart rdf:resource="https://jurnal.umk.ac.id/index.php/simet/article/view/2725"/>
     </z:Collection>
 </rdf:RDF>
