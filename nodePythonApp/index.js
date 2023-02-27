@@ -46,3 +46,16 @@ app.get("/2", (req, res) => {
 app.listen(port, () => {
   console.log(`App listening on port ${port}!`);
 });
+
+const scenario_1 = () => {
+  keyAnswer =
+    "To sumulate the behaviour of portions of the desired software product.";
+  studentAnswer =
+    "Simulating the behavior of only a portion of the desired software product.";
+};
+
+const scenario_2 = () => {
+  keyAnswer =
+    "To sumulate the behaviour of portions of the desired software product.";
+  // studentAnswers = "//open CSV Files containing the answers"
+};
