@@ -1046,6 +1046,7 @@
                 <rdf:value>https://developer.ibm.com/articles/5-steps-of-test-driven-development/</rdf:value>
             </dcterms:URI>
         </dc:identifier>
+        <dcterms:dateSubmitted>2023-01-30</dcterms:dateSubmitted>
     </bib:Article>
     <bib:Article rdf:about="https://ojs.unud.ac.id/index.php/lontar/article/view/59547">
         <z:itemType>journalArticle</z:itemType>
@@ -2833,6 +2834,63 @@
         <dc:title>Ependi et al. - 2019 - SYSTEM USABILITY SCALE VS HEURISTIC EVALUATION A .pdf</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0164121221001461">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:01641212"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paltoglou</foaf:surname>
+                        <foaf:givenName>Katerina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zafeiris</foaf:surname>
+                        <foaf:givenName>Vassilis E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Diamantidis</foaf:surname>
+                        <foaf:givenName>N.A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giakoumakis</foaf:surname>
+                        <foaf:givenName>E.A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_118"/>
+        <dc:title>Automated refactoring of legacy JavaScript code to ES6 modules</dc:title>
+        <dcterms:abstract>The JavaScript language did not specify, until ECMAScript 6 (ES6), native features for streamlining encapsulation and modularity. Developer community filled the gap with a proliferation of design patterns and module formats, with impact on code reusability, portability and complexity of build configurations. This work studies the automated refactoring of legacy ES5 code to ES6 modules with fine-grained reuse of module contents through the named import/export language constructs. The focus is on reducing the coupling of refactored modules through destructuring exported module objects to fine-grained module features and enhancing module dependencies by leveraging the ES6 syntax. We employ static analysis to construct a model of a JavaScript project, the Module Dependence Graph (MDG), that represents modules and their dependencies. On the basis of MDG we specify the refactoring procedure for module migration to ES6. A prototype implementation has been empirically evaluated on 19 open source projects. Results highlight the relevance of the refactoring with a developer intent for fine-grained reuse. The analysis of refactored code shows an increase in the number of reusable elements per project and reduction in the coupling of refactored modules. The soundness of the refactoring is empirically validated through code inspection and execution of projects’ test suites.</dcterms:abstract>
+        <dc:date>11/2021</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0164121221001461</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-03-13 14:45:10</dcterms:dateSubmitted>
+        <bib:pages>111049</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:01641212">
+        <prism:volume>181</prism:volume>
+        <dc:title>Journal of Systems and Software</dc:title>
+        <dc:identifier>DOI 10.1016/j.jss.2021.111049</dc:identifier>
+        <dcterms:alternative>Journal of Systems and Software</dcterms:alternative>
+        <dc:identifier>ISSN 01641212</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_118">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Paltoglou et al. - 2021 - Automated refactoring of legacy JavaScript code to.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Collection rdf:about="#collection_1">
         <dc:title>Datmin</dc:title>
         <dcterms:hasPart rdf:resource="http://www.erciyesmedj.com/jvi.aspx?un=EMJ-99836&amp;volume="/>
@@ -2896,5 +2954,6 @@
         <dcterms:hasPart rdf:resource="urn:isbn:978-1-5386-5903-8"/>
         <dcterms:hasPart rdf:resource="http://www.tandfonline.com/doi/abs/10.1080/10447318.2002.9669130"/>
         <dcterms:hasPart rdf:resource="https://jurnal.umk.ac.id/index.php/simet/article/view/2725"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0164121221001461"/>
     </z:Collection>
 </rdf:RDF>
