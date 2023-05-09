@@ -2891,6 +2891,582 @@
         <dc:title>Paltoglou et al. - 2021 - Automated refactoring of legacy JavaScript code to.pdf</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-72810-702-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-72810-702-8</dc:identifier>
+                <dc:title>2019 20th International Carpathian Control Conference (ICCC)</dc:title>
+                <dc:identifier>DOI 10.1109/CarpathianCC.2019.8765944</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Krakow-Wieliczka, Poland</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Babiuch</foaf:surname>
+                        <foaf:givenName>Marek</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Foltynek</foaf:surname>
+                        <foaf:givenName>Petr</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smutny</foaf:surname>
+                        <foaf:givenName>Pavel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_120"/>
+        <dc:title>Using the ESP32 Microcontroller for Data Processing</dc:title>
+        <dcterms:abstract>This article deals with experiences with the development of applications of the ESP32 microcontrollers and provides a comprehensive review of the possibilities of applications development on this platform in the area of data measurement and processing. Microcontrollers usually connect with IoT modules and other smart sensors and provide data to the superior system. This paper also describes implementation of application with the version of connected OLED display and with ESP32 Wrover development board with integrated display.</dcterms:abstract>
+        <dc:date>5/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/8765944/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-03-28 21:42:05</dcterms:dateSubmitted>
+        <bib:pages>1-6</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2019 20th International Carpathian Control Conference (ICCC)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_120">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Babiuch et al. - 2019 - Using the ESP32 Microcontroller for Data Processin.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-3-540-37215-8%20978-3-540-37216-5">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>4085</prism:volume>
+                <dc:identifier>ISBN 978-3-540-37215-8 978-3-540-37216-5</dc:identifier>
+                <dc:title>FM 2006: Formal Methods</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin, Heidelberg</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:seriesEditors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hutchison</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kanade</foaf:surname>
+                        <foaf:givenName>Takeo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kittler</foaf:surname>
+                        <foaf:givenName>Josef</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kleinberg</foaf:surname>
+                        <foaf:givenName>Jon M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mattern</foaf:surname>
+                        <foaf:givenName>Friedemann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mitchell</foaf:surname>
+                        <foaf:givenName>John C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Naor</foaf:surname>
+                        <foaf:givenName>Moni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nierstrasz</foaf:surname>
+                        <foaf:givenName>Oscar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pandu Rangan</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steffen</foaf:surname>
+                        <foaf:givenName>Bernhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sudan</foaf:surname>
+                        <foaf:givenName>Madhu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Terzopoulos</foaf:surname>
+                        <foaf:givenName>Demetri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tygar</foaf:surname>
+                        <foaf:givenName>Dough</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vardi</foaf:surname>
+                        <foaf:givenName>Moshe Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weikum</foaf:surname>
+                        <foaf:givenName>Gerhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:seriesEditors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Misra</foaf:surname>
+                        <foaf:givenName>Jayadev</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nipkow</foaf:surname>
+                        <foaf:givenName>Tobias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sekerinski</foaf:surname>
+                        <foaf:givenName>Emil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Henzinger</foaf:surname>
+                        <foaf:givenName>Thomas A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sifakis</foaf:surname>
+                        <foaf:givenName>Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_122"/>
+        <dc:title>The Embedded Systems Design Challenge</dc:title>
+        <dcterms:abstract>We summarize some current trends in embedded systems design and point out some of their characteristics, such as the chasm between analytical and computational models, and the gap between safety-critical and best-eﬀort engineering practices. We call for a coherent scientiﬁc foundation for embedded systems design, and we discuss a few key demands on such a foundation: the need for encompassing several manifestations of heterogeneity, and the need for constructivity in design. We believe that the development of a satisfactory Embedded Systems Design Science provides a timely challenge and opportunity for reinvigorating computer science.</dcterms:abstract>
+        <dc:date>2006</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://link.springer.com/10.1007/11813040_1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-03-28 21:56:44</dcterms:dateSubmitted>
+        <dc:description>Series Title: Lecture Notes in Computer Science
+DOI: 10.1007/11813040_1</dc:description>
+        <bib:pages>1-15</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_122">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Henzinger and Sifakis - 2006 - The Embedded Systems Design Challenge.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ejournal.itn.ac.id/index.php/jati/article/view/3315">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2598-828X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bere</foaf:surname>
+                        <foaf:givenName>Stevania</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mahmudi</foaf:surname>
+                        <foaf:givenName>Ali</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Panji Sasmito</foaf:surname>
+                        <foaf:givenName>Agung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_124"/>
+        <dc:title>RANCANG BANGUN ALAT PEMBUKA DAN PENUTUP TONG SAMPAH OTOMATIS MENGGUNAKAN SENSOR JARAK BERBASIS ARDUINO</dc:title>
+        <dcterms:abstract>Kebersihan lingkungan adalah salah satu kegiatan untuk menciptakan lingkungan yang bersih, nyaman dan indah saat dipandang. Saat ini kesadaran akan kebersihan lingkungan sedang kurang optimal, buktinya masih banyak orang yang membuang sampah sembarangan, tempat sampah yang telah disediakan belum digunakan dengan baik. Masih ada masyarakat yang  membuang sampah sembarangan karena takut kotor saat menyentuh tutup kotak sampah dan saat menginjak bagian kotak sampah untuk membuka tong sampah. Hal tersebut kurang praktis dan efisiensi untuk mewujudkan lingkungan yang bersih. 
+Ada inovasi baru agar membuat kotak sampah lebih praktis namun tetap aman. Dengan memanfaatkan teknologi modern yaitu dengan membuat pembuka dan penutup kotak sampah otomatis dengan pengendalian otomatis dengan sensor jarak (ultrasonic), pengontrol untuk mengatur motor servo yang berfungsi untuk membuka dan menutup kotak sampah. 
+Berdasarkan hasil perancangan dan pengujian sistem kepada 10 responden, maka dapat mengambil kesimpulan dari alat yang dibuat yaitu alat  yang dirancang dapat bekerja dengan baik dalam menangani proses sistem membuka dan menutup tong sampah secara otomatis dengan jarak respon jika seorang melewati kotak sampah &lt;= 30cm maka tutup kotak sampah akan terbuka otomatis, dan delay selama 5 detik. Dapat mengirimkan notifikasi pesan telegram dengan baik saat buzzer memberikan alarm jika kotak sampah sudah penuh.</dcterms:abstract>
+        <dc:date>2021-02-28</dc:date>
+        <z:language>id</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ejournal.itn.ac.id/index.php/jati/article/view/3315</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-03-29 06:47:34</dcterms:dateSubmitted>
+        <bib:pages>357-363</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2598-828X">
+        <prism:volume>5</prism:volume>
+        <dc:title>JATI (Jurnal Mahasiswa Teknik Informatika)</dc:title>
+        <dc:identifier>DOI 10.36040/jati.v5i1.3315</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>jati</dcterms:alternative>
+        <dc:identifier>ISSN 2598-828X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_124">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Bere et al. - 2021 - RANCANG BANGUN ALAT PEMBUKA DAN PENUTUP TONG SAMPA.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_127">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yahya</foaf:surname>
+                        <foaf:givenName>Reiza</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_126"/>
+        <dc:title>PURWARUPA KOTAK SAMPAH PINTAR BERBASIS IoT (Internet Of Things)</dc:title>
+        <dcterms:abstract>Dumpster is an object that is often around us. Throwing litter randomly, the excessive trash is a problem that we often encounter in the trash. By using an Arduino microcontroller, the ultrasonic sensor and servo motor cut off this trash will open automatically. Equipped with fire detector and buzzer as an added feature Uses the ESP8266 module NodeMCU to connect to internet network as media monitor condition of garbage by cleaning service in the form of garbage volume and monitor in case of fire. Useful for more practical, hygienic and activities to make points of interest.</dcterms:abstract>
+        <z:language>id</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_126">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Yahya - PURWARUPA KOTAK SAMPAH PINTAR BERBASIS IoT (Intern.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/4058">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2715-7393,%202407-389X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sanjaya</foaf:surname>
+                        <foaf:givenName>Handika</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Daulay</foaf:surname>
+                        <foaf:givenName>Nelly Khairani</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Trianto</foaf:surname>
+                        <foaf:givenName>Juni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andri</foaf:surname>
+                        <foaf:givenName>Refdi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_128"/>
+        <dc:title>Tempat Sampah Otomatis Berbasis Mikrokontroler Arduino</dc:title>
+        <dcterms:abstract>Waste management that is not integrated well causes a lack of public interest in disposing of garbage in its place. The impact caused can disrupt the health and cleanliness of the environment. Environmental cleanliness is an important thing that must be considered, a clean environment makes us feel serene and comfortable so it is very important to grow awareness in maintaining environmental cleanliness by disposing of garbage in its place. The method used in this study is the design of the tool, with the needs of analysis, field circuit, tool making, testing and analysis tools. It needs innovation in today's hygiene system technology, one of which is making automatic trash cans to be more efficient in its use. By utilizing technology in its controlling system. A microcontroller-based automatic trash can be made to open and close the box automatically by using the Distance Sensor Control (Ultrasonic) and the servo motor function as the drive cap automatically. Automatic trash can with a microcontroller-based ultrasonic sensor can detect movements with a distance of 30 cm after it automatically servo open the garbage box lid, and delay for 5 seconds.</dcterms:abstract>
+        <dc:date>2022-04-29</dc:date>
+        <z:language>id</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/4058</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-03-29 06:51:16</dcterms:dateSubmitted>
+        <bib:pages>451</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2715-7393,%202407-389X">
+        <prism:volume>9</prism:volume>
+        <dc:title>JURIKOM (Jurnal Riset Komputer)</dc:title>
+        <dc:identifier>DOI 10.30865/jurikom.v9i2.4058</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Jur. Ris. Kom.</dcterms:alternative>
+        <dc:identifier>ISSN 2715-7393, 2407-389X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_128">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Sanjaya et al. - 2022 - Tempat Sampah Otomatis Berbasis Mikrokontroler Ard.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://jeeeu.umsida.ac.id/index.php/jeeeu/article/view/1606">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2540-8658"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Putra</foaf:surname>
+                        <foaf:givenName>Hans Perdana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wahid</foaf:surname>
+                        <foaf:givenName>Syamsudin Nur</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_130"/>
+        <dc:title>Pembuatan Trainer Tempat Sampah Otomatis Guna Menyiasati Masalah Sampah Di Lingkungan Masyarakat</dc:title>
+        <dcterms:abstract>Ngadirejo Village is a safe and comfortable village with the majority of the population working in agriculture and animal husbandry. However, on the other hand, public awareness and concern for handling waste is still lacking. Concerns about the waste problem can be reduced by increasing public awareness to treat waste properly and correctly. Therefore, the author tries to make a tool that is an Automatic Trash Place so that the community members are not reluctant to throw garbage in the trash. They do not need to touch the lid of the trash, to open it only need to hold hands and automatically the trash can will open. Trash cans are made by modifying existing bins. Swivel-covered bins are connected by servo motors and ultrasonic and infrared sensors which are controlled by the Arduino Uno microcontroller kit. This trash can can function properly and be used properly by the community. The results of this research are that the trash can can respond to garbage that is 20 cm away quickly and the trainer is used by students of the electrical engineering study program at Balitar Islamic University as a learning medium.</dcterms:abstract>
+        <dc:date>2019-04-25</dc:date>
+        <z:language>id</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jeeeu.umsida.ac.id/index.php/jeeeu/article/view/1606</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-03-29 06:52:25</dcterms:dateSubmitted>
+        <bib:pages>120-137</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2540-8658">
+        <prism:volume>3</prism:volume>
+        <dc:title>JEEE-U (Journal of Electrical and Electronic Engineering-UMSIDA)</dc:title>
+        <dc:identifier>DOI 10.21070/jeee-u.v3i1.2087</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>jeeeu</dcterms:alternative>
+        <dc:identifier>ISSN 2540-8658</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_130">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Putra and Wahid - 2019 - Pembuatan Trainer Tempat Sampah Otomatis Guna Meny.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://thesai.org/Publications/ViewPaper?Volume=10&amp;Issue=6&amp;Code=IJACSA&amp;SerialNo=65">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:21565570,%202158107X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>-</foaf:surname>
+                        <foaf:givenName>Iswanto</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Purwanto</foaf:surname>
+                        <foaf:givenName>Kunnu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hastuti</foaf:surname>
+                        <foaf:givenName>Weni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Prabowo</foaf:surname>
+                        <foaf:givenName>Anis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yusvin</foaf:surname>
+                        <foaf:givenName>Muhamad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_132"/>
+        <dc:title>Smart Smoking Area based on Fuzzy Decision Tree Algorithm</dc:title>
+        <dcterms:abstract>Cigarette smoke is very dangerous for both active and passive smokers who smoke inside a room because nicotine from cigarette smoke can stick on the wall or in the furniture and produce carcinogenic substances when reacting with air. The carcinogen chemicals in cigarettes are more dangerous when cigarette smoke is trapped in a limited space. An exhaust fan is usually used in a special room for smokers that serves to remove cigarette smoke without exchanging air in it. A smart smoking room tool specifically for smokers was made to answer the problem. The room used an ‘in and out’ exhaust fan ventilator. This fan ventilator rotated based on the quantity of carbon monoxide (CO) gas in the room detected by using a smoke sensor. Arduino Uno based on Fuzzy Decision Tree algorithm was used to control of the input voltage level in the fan ventilator. The result showed that by using the tool, the cigarette smoke in the room can be controlled effectively.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://thesai.org/Publications/ViewPaper?Volume=10&amp;Issue=6&amp;Code=IJACSA&amp;SerialNo=65</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-04-02 12:06:27</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:21565570,%202158107X">
+        <prism:volume>10</prism:volume>
+        <dc:title>International Journal of Advanced Computer Science and Applications</dc:title>
+        <dc:identifier>DOI 10.14569/IJACSA.2019.0100665</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>IJACSA</dcterms:alternative>
+        <dc:identifier>ISSN 21565570, 2158107X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_132">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>- et al. - 2019 - Smart Smoking Area based on Fuzzy Decision Tree Al.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_135">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Olan</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>College</foaf:surname>
+                        <foaf:givenName>Richard Stockton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_134"/>
+        <dc:title>UNIT TESTING: TEST EARLY, TEST OFTEN</dc:title>
+        <dcterms:abstract>Testing is a critical part of good software development, but often gets only minimal coverage in introductory programming courses. Unit testing and selected aspects of test-driven development can be used to improve learning and encourage emphasis on quality and correctness. Tools like JUnit significantly simplify the generation of test cases. An additional benefit for instructors is that these tools can also be used to automate project grading.</dcterms:abstract>
+        <dc:date>2003</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_134">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Olan and College - 2003 - UNIT TESTING TEST EARLY, TEST OFTEN.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4799-6033-0%20978-1-4799-6032-3">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4799-6033-0 978-1-4799-6032-3</dc:identifier>
+                <dc:title>2014 IEEE 25th International Symposium on Software Reliability Engineering</dc:title>
+                <dc:identifier>DOI 10.1109/ISSRE.2014.11</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Naples, Italy</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Daka</foaf:surname>
+                        <foaf:givenName>Ermira</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fraser</foaf:surname>
+                        <foaf:givenName>Gordon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_136"/>
+        <dc:title>A Survey on Unit Testing Practices and Problems</dc:title>
+        <dcterms:abstract>Unit testing is a common practice where developers write test cases together with regular code. Automation frameworks such as JUnit for Java have popularised this approach, allowing frequent and automatic execution of unit test suites. Despite the appraisals of unit testing in practice, software engineering researchers see potential for improvement and investigate advanced techniques such as automated unit test generation. To align such research with the needs of practitioners, we conducted a survey amongst 225 software developers, covering different programming languages and 29 countries, using a global online marketing research platform. The survey responses conﬁrm that unit testing is an important factor in software development, and suggest that there is indeed potential and need for research on automation of unit testing. The results help us to identify areas of importance on which further research will be necessary (e.g., maintenance of unit tests), and also provide insights into the suitability of online marketing research platforms for software engineering surveys.</dcterms:abstract>
+        <dc:date>11/2014</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/6982627/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-09 14:09:55</dcterms:dateSubmitted>
+        <bib:pages>201-211</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2014 IEEE 25th International Symposium on Software Reliability Engineering (ISSRE)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_136">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Daka and Fraser - 2014 - A Survey on Unit Testing Practices and Problems.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Collection rdf:about="#collection_1">
         <dc:title>Datmin</dc:title>
         <dcterms:hasPart rdf:resource="http://www.erciyesmedj.com/jvi.aspx?un=EMJ-99836&amp;volume="/>
@@ -2910,6 +3486,13 @@
         <dc:title>KSI Tugas 1</dc:title>
         <dcterms:hasPart rdf:resource="urn:isbn:978-1-5090-3378-2"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-1-5090-5510-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-72810-702-8"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-540-37215-8%20978-3-540-37216-5"/>
+        <dcterms:hasPart rdf:resource="https://ejournal.itn.ac.id/index.php/jati/article/view/3315"/>
+        <dcterms:hasPart rdf:resource="#item_127"/>
+        <dcterms:hasPart rdf:resource="https://ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/4058"/>
+        <dcterms:hasPart rdf:resource="https://jeeeu.umsida.ac.id/index.php/jeeeu/article/view/1606"/>
+        <dcterms:hasPart rdf:resource="http://thesai.org/Publications/ViewPaper?Volume=10&amp;Issue=6&amp;Code=IJACSA&amp;SerialNo=65"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_2">
         <dc:title>TA</dc:title>
@@ -2955,5 +3538,7 @@
         <dcterms:hasPart rdf:resource="http://www.tandfonline.com/doi/abs/10.1080/10447318.2002.9669130"/>
         <dcterms:hasPart rdf:resource="https://jurnal.umk.ac.id/index.php/simet/article/view/2725"/>
         <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0164121221001461"/>
+        <dcterms:hasPart rdf:resource="#item_135"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-4799-6033-0%20978-1-4799-6032-3"/>
     </z:Collection>
 </rdf:RDF>
