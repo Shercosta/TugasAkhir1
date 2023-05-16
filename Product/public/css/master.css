@@ -1,4 +1,5 @@
 /* ELEMENTS */
+
 textarea.form-control {
   height: 40vmin;
 }
@@ -34,6 +35,10 @@ textarea.form-control {
 .help_icon {
   margin-left: auto;
   width: fit-content;
+}
+
+.score_line {
+  width: 100%;
 }
 
 .select_local {

@@ -30,7 +30,7 @@ app.route("/option").post((req, res) => {
   };
   if (obj.language === "Indonesia") {
     if (obj.select === "single") {
-      res.render("indonesia/single");
+      res.render("indonesia/single", { language: obj.language });
     } else {
       res.render("indonesia/bulk");
     }
@@ -43,6 +43,34 @@ app.route("/option").post((req, res) => {
   } else {
     res.redirect("/");
   }
+});
+
+app.post("/ids", (req, res) => {
+  const keyAnswer = req.body.teacherAnswer;
+  const answer = req.body.studentAnswer;
+  const language = req.body.language;
+
+  // console.log(keyAnswer + " ---- " + answer);
+
+  res.render("result/singleResult", {
+    language: language,
+    keyAnswer: keyAnswer,
+    answer: answer,
+  });
+});
+
+app.post("/ens", (req, res) => {
+  const keyAnswer = req.body.teacherAnswer;
+  const answer = req.body.studentAnswer;
+  const language = req.body.language;
+
+  // console.log(keyAnswer + " ---- " + answer);
+
+  res.render("result/singleResult", {
+    language: language,
+    keyAnswer: keyAnswer,
+    answer: answer,
+  });
 });
 
 app.listen(1234, () => {
