@@ -24,6 +24,24 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/testModel", (req, res) => {
+  let received = 4;
+
+  const pie = spawn("python", [
+    "model/spell.py",
+    "1. Selalu lindungi rambutmu dari sinar matahari, angin dan hujan 2. Setelah keramas jangan langsung menyisir, tunggu beberapa saat sampai rambut agak kering 3. Gunakan kondisioner setelah keramas. Kondisioner dapat membantu agar rambutmu semakin lurus 4. Lakukan conditioning dengan benar. 5. Pilih sampo dan kondisioner dari jenis yang sama karena memiliki formulasi yang sama. 6. Hindari penggunaan hair dryer pada rambut. 7. Hindari menggunakan ikat rambut yang super ketat. 8. Ketika tidur di malam hari, biarkan rambut tergerai pada satu sisi untuk menghindari kekusutan rambut. 9. Tidur menggunakan bantal yang terbuat dari satin. 10. Ketika mengeringkan rambut, lakukan dengan cara ditekan. 11. Gunakan masker rambut yang cocok untuk rambut. 12. Gunakan air dingin untuk keramas. 13. Makan yang benar. Nutrisi tertentu seperti vitamin, zat besi dan protein sangat penting untuk pertumbuhan rambut dan kesehatan.",
+  ]);
+
+  pie.stdout.on("data", (data) => {
+    received = data;
+  });
+
+  pie.on("close", (code) => {
+    // res.send(received.toString());
+    console.log(received);
+  });
+});
+
 app.get("/2", (req, res) => {
   let dataToSend;
 
