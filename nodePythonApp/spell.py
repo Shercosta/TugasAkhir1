@@ -4,7 +4,7 @@ import pandas as pd
 with open("slang.dic") as f:
     slang = json.load(f)
 
-kamus_slang = pd.read_json("slang.dic", typ="series")
+kamus_slang = pd.read_json("model/slang.dic", typ="series")
 pd.DataFrame(kamus_slang.items(), columns=["contraction", "original"]).head()
 contractions_list = list(kamus_slang.keys())
 

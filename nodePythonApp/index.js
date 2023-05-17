@@ -61,6 +61,43 @@ app.get("/2", (req, res) => {
   });
 });
 
+app.get("/deco", (req, res) => {
+  const text1 =
+    "Otak merupakan bagian terpenting dari tubuh manusia. Segala aktivitas akan dikoordinasikan dengan otak sebelum dijalankan oleh bagian tubuh. Pikiran positif akan menghindarkan anda dari stres, meningkatkan rasa percaya diri serta menjaga kinerja organ tubuh lainnya tetap maksimal.";
+  const text2 =
+    "secara psikologi berfikir positif mampu meningkatkan kepercayaan diri yang akan berakibat baik pada sistem kekebalan tubuh. sehingga pola hidup sehat akan terjaga karena fikiran yang selalu positif dan tidak cenderung pada suatu hal negatif. ";
+
+  let deco = 0;
+
+  const deka = spawn("python", ["tocode.py", text1, text2]);
+
+  // deka.stdout.on("data", (data) => {
+  //   deco = data;
+  // });
+
+  // deka.on("close", (code) => {
+  //   console.log(deco);
+  //   res.send(deco);
+  // });
+
+  res.send("Check JSON");
+});
+
+app.get("/deka", (req, res) => {
+  let def = 0;
+
+  const deka = spawn("python", ["script1.py", 10, 12]);
+
+  deka.stdout.on("data", (data) => {
+    def = data;
+  });
+
+  deka.on("close", (code) => {
+    console.log(def);
+    res.send(def);
+  });
+});
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}!`);
 });
