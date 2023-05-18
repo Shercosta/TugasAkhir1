@@ -112,8 +112,17 @@ app.get("/april", (req, res) => {
   // enmodel.on("exit", (code) => {
   //   res.send(printout);
   // });
-  PythonShell.run("EnModel/aprilModel.py", null).then((messages) => {
-    console.log("finished");
+
+  let options = {
+    mode: "text",
+    // pythonPath: "EnModel/aprilModel.py",
+    pythonOptions: ["-u"], //get print result in real time
+    // scriptPath: "EnModel/aprilModel.py",
+  };
+
+  PythonShell.run("EnModel/aprilModel.py", options).then((messages) => {
+    // console.log("finished");
+    console.log(messages);
   });
 });
 
