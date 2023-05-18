@@ -2,6 +2,8 @@ const express = require("express");
 const { spawn } = require("child_process");
 const app = express();
 const port = 3000;
+// import path from "path";
+const { PythonShell } = require("python-shell");
 
 app.get("/", (req, res) => {
   let dataToSend;
@@ -95,6 +97,23 @@ app.get("/deka", (req, res) => {
   deka.on("close", (code) => {
     console.log(def);
     res.send(def);
+  });
+});
+
+app.get("/april", (req, res) => {
+  // const enmodel = spawn("python", ["EnModel/aprilModel.py"]);
+
+  // let printout = "max";
+
+  // enmodel.stdout.on("data", (data) => {
+  //   printout = data;
+  // });
+
+  // enmodel.on("exit", (code) => {
+  //   res.send(printout);
+  // });
+  PythonShell.run("EnModel/aprilModel.py", null).then((messages) => {
+    console.log("finished");
   });
 });
 
