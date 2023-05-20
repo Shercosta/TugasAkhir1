@@ -103,13 +103,13 @@ app.post("/ens", (req, res) => {
       scoreLoad = messages;
     })
     .then(() => {
-      console.log(scoreLoad);
+      // console.log(scoreLoad);
 
       res.render("result/singleResult", {
         language: language,
         keyAnswer: scoreLoad[0].keyAnswer["0"],
         answer: scoreLoad[0].studentAnswer["0"],
-        score: scoreLoad[0].scoreModelStem["0"],
+        score: (scoreLoad[0].scoreModelStem["0"] / 5) * 100,
       });
     });
 });
