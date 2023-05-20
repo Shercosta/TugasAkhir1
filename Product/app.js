@@ -1,7 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
-const { log } = require("console");
+var fs = require("fs");
+// const { log } = require("console");
 
 const app = express();
 
@@ -63,6 +64,8 @@ app.post("/ens", (req, res) => {
   const keyAnswer = req.body.teacherAnswer;
   const answer = req.body.studentAnswer;
   const language = req.body.language;
+
+  const Dataset = {};
 
   // console.log(keyAnswer + " ---- " + answer);
 

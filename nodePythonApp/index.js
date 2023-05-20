@@ -114,7 +114,7 @@ app.get("/april", (req, res) => {
   // });
 
   let options = {
-    mode: "text",
+    mode: "json",
     // pythonPath: "EnModel/aprilModel.py",
     pythonOptions: ["-u"], //get print result in real time
     // scriptPath: "EnModel/aprilModel.py",
