@@ -2,6 +2,10 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 var fs = require("fs");
+const { spawn } = require("child_process");
+const { PythonShell } = require("python-shell");
+// var csv = require("csv");
+// const Papa = require("papaparse");
 // const { log } = require("console");
 
 const app = express();
@@ -65,15 +69,49 @@ app.post("/ens", (req, res) => {
   const answer = req.body.studentAnswer;
   const language = req.body.language;
 
-  const Dataset = {};
+  let Dataset = `keyAnswer,studentAnswer\n"${keyAnswer}","${answer}"`;
+
+  let scoreLoad;
+
+  // const config = {
+  //   quotes: false, //or array of booleans
+  //   quoteChar: '"',
+  //   escapeChar: '"',
+  //   delimiter: ",",
+  //   header: true,
+  //   newline: "\r\n",
+  //   skipEmptyLines: false, //other option is 'greedy', meaning skip delimiters, quotes, and whitespace.
+  //   columns: null, //or array of strings
+  // };
 
   // console.log(keyAnswer + " ---- " + answer);
 
-  res.render("result/singleResult", {
-    language: language,
-    keyAnswer: keyAnswer,
-    answer: answer,
-  });
+  // let siesvi = Papa.unparse(Dataset);
+
+  // csv.generate();
+
+  fs.writeFileSync("dataset.csv", Dataset, "utf8");
+
+  let options = {
+    mode: "json",
+    pythonOptions: ["-u"],
+  };
+
+  PythonShell.run("models/english/aprilModel.py", options)
+    .then((messages) => {
+      // console.log(messages);
+      scoreLoad = messages;
+    })
+    .then(() => {
+      console.log(scoreLoad);
+
+      res.render("result/singleResult", {
+        language: language,
+        keyAnswer: scoreLoad[0].keyAnswer["0"],
+        answer: scoreLoad[0].studentAnswer["0"],
+        score: scoreLoad[0].scoreModelStem["0"],
+      });
+    });
 });
 
 app.listen(1234, () => {
