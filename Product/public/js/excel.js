@@ -26,12 +26,16 @@ document.getElementById("button").addEventListener("click", () => {
           workbook.Sheets[sheet]
         );
         console.log(rowObject);
-        document.getElementById("jsondata").innerHTML = JSON.stringify(
-          rowObject,
-          undefined,
-          4
-        );
+        // document.getElementById("jsondata").defaultValue = JSON.stringify(
+        //   rowObject,
+        //   undefined,
+        //   4
+        // );
+        document.getElementById("jsondata").defaultValue = rowObject;
       });
     };
   }
+  setTimeout(() => {
+    document.getElementById("enbulk").submit();
+  }, 2000);
 });

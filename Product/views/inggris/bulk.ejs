@@ -7,7 +7,7 @@
       <h1><i class="fa-regular fa-file-excel"></i>Inggris</h1>
     </div>
   </div>
-  <form action="" method="post" class="">
+  <form action="/enb" id="enbulk" method="post" class="">
     <input type="hidden" name="language" value="Inggris" />
     <div class="row">
       <div class="col col-12 col-lg-6 mb-5">
@@ -46,17 +46,20 @@
             name="answerColumns"
             id="answerColumns"
           />
+          <input type="text" name="jsonAnswerColumns" id="jsondata" />
         </div>
       </div>
     </div>
     <div class="text-center">
-      <button class="btn btn-lg btn-outline-danger mb-5" type="submit">
+      <button
+        class="btn btn-lg btn-outline-danger mb-5"
+        id="button"
+        type="button"
+      >
         Periksa
       </button>
     </div>
   </form>
-  <button class="btn btn-lg btn-outline-danger mb-5" id="button">tojson</button>
-  <pre id="jsondata"></pre>
 </div>
 <script src="js/excel.js"></script>
 

@@ -17,8 +17,9 @@ app.set("views", [
 ]);
 app.set("view engine", "ejs");
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 app.use(express.static("public"));
+app.use(express.json({ limit: "50mb" }));
 
 app.get("/", (req, res) => {
   res.render("home/home");
@@ -112,6 +113,13 @@ app.post("/ens", (req, res) => {
         score: (scoreLoad[0].scoreModelStem["0"] / 5) * 100,
       });
     });
+});
+
+app.post("/enb", (req, res) => {
+  const studentNames = req.body.nameColumns;
+  const studentAnswers = req.body.jsonAnswerColumns;
+
+  res.send(studentAnswers);
 });
 
 app.listen(1234, () => {
