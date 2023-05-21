@@ -4,6 +4,17 @@ const path = require("path");
 var fs = require("fs");
 const { spawn } = require("child_process");
 const { PythonShell } = require("python-shell");
+const formidable = require("formidable");
+const multer = require("multer");
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, "public/");
+  },
+  filename: (req, file, cb) => {
+    cb(null, "enbulkdata.csv");
+  },
+});
+const upload = multer({ storage: storage });
 // var csv = require("csv");
 // const Papa = require("papaparse");
 // const { log } = require("console");
@@ -115,21 +126,30 @@ app.post("/ens", (req, res) => {
     });
 });
 
-app.post("/enb", (req, res) => {
+app.post("/enb", upload.single("studentAnswers"), (req, res) => {
   const keyAnswer = req.body.teacherAnswer;
   const studentNames = req.body.nameColumns;
   const answerColumns = req.body.answerColumns;
-  const studentAnswers = JSON.parse(req.body.jsonAnswerColumns);
+  // const rawStudentAnswers = req.body.studentAnswers;
+  // const studentAnswers = JSON.parse(req.body.jsonAnswerColumns);
   const language = req.body.language;
   const dummyanswer = "negative";
 
-  // res.send(studentAnswers);
+  console.log(req.file, req.body);
+  // const form = formidable({ multiples: true });
 
-  res.render("result/bulkResult", {
-    language: language,
-    keyAnswer: keyAnswer,
-    // answer: dummyanswer,
-  });
+  // form.parse(req, (err, fields, files) => {
+  //   console.log(typeof files);
+  //   res.json({ fields, files });
+  // });
+
+  // console.log(rawStudentAnswers);
+
+  // res.render("result/bulkResult", {
+  //   language: language,
+  //   keyAnswer: keyAnswer,
+  //   // answer: dummyanswer,
+  // });
 });
 
 app.listen(1234, () => {

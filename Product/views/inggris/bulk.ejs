@@ -7,7 +7,13 @@
       <h1><i class="fa-regular fa-file-excel"></i>Inggris</h1>
     </div>
   </div>
-  <form action="/enb" id="enbulk" method="post" class="">
+  <form
+    action="/enb"
+    id="enbulk"
+    enctype="multipart/form-data"
+    method="post"
+    class=""
+  >
     <input type="hidden" name="language" value="Inggris" />
     <div class="row">
       <div class="col col-12 col-lg-6 mb-5">
@@ -20,7 +26,6 @@
       </div>
       <div class="col col-12 col-lg-6 mb-5">
         <div>
-          <input type="hidden" name="language" value="Inggris" />
           <label class="form-label" for="studentAnswer"
             >Excel Jawaban Pelajar</label
           >
@@ -28,7 +33,8 @@
           <input
             class="form-control mb-3"
             type="file"
-            accept=".xls,.xlsx"
+            accept=".csv"
+            multiple="multiple"
             name="studentAnswers"
             id="studentAnswer"
           />
@@ -56,13 +62,13 @@
       <button
         class="btn btn-lg btn-outline-danger mb-5"
         id="button"
-        type="button"
+        type="submit"
       >
         Periksa
       </button>
     </div>
   </form>
 </div>
-<script src="js/excel.js"></script>
+<!-- <script src="js/excel.js"></script> -->
 
 <%-include('footer')%>
