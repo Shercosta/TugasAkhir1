@@ -116,10 +116,20 @@ app.post("/ens", (req, res) => {
 });
 
 app.post("/enb", (req, res) => {
+  const keyAnswer = req.body.teacherAnswer;
   const studentNames = req.body.nameColumns;
-  const studentAnswers = req.body.jsonAnswerColumns;
+  const answerColumns = req.body.answerColumns;
+  const studentAnswers = JSON.parse(req.body.jsonAnswerColumns);
+  const language = req.body.language;
+  const dummyanswer = "negative";
 
-  res.send(studentAnswers);
+  // res.send(studentAnswers);
+
+  res.render("result/bulkResult", {
+    language: language,
+    keyAnswer: keyAnswer,
+    // answer: dummyanswer,
+  });
 });
 
 app.listen(1234, () => {
