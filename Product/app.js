@@ -1,6 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
+const CSVToJSON = require("csvtojson");
+const JSONToCSV = require("json2csv").parse;
 var fs = require("fs");
 const { spawn } = require("child_process");
 const { PythonShell } = require("python-shell");
@@ -8,7 +10,7 @@ const formidable = require("formidable");
 const multer = require("multer");
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, "public/");
+    cb(null, "./");
   },
   filename: (req, file, cb) => {
     cb(null, "enbulkdata.csv");
@@ -85,23 +87,6 @@ app.post("/ens", (req, res) => {
 
   let scoreLoad;
 
-  // const config = {
-  //   quotes: false, //or array of booleans
-  //   quoteChar: '"',
-  //   escapeChar: '"',
-  //   delimiter: ",",
-  //   header: true,
-  //   newline: "\r\n",
-  //   skipEmptyLines: false, //other option is 'greedy', meaning skip delimiters, quotes, and whitespace.
-  //   columns: null, //or array of strings
-  // };
-
-  // console.log(keyAnswer + " ---- " + answer);
-
-  // let siesvi = Papa.unparse(Dataset);
-
-  // csv.generate();
-
   fs.writeFileSync("dataset.csv", Dataset, "utf8");
 
   let options = {
@@ -130,26 +115,44 @@ app.post("/enb", upload.single("studentAnswers"), (req, res) => {
   const keyAnswer = req.body.teacherAnswer;
   const studentNames = req.body.nameColumns;
   const answerColumns = req.body.answerColumns;
-  // const rawStudentAnswers = req.body.studentAnswers;
-  // const studentAnswers = JSON.parse(req.body.jsonAnswerColumns);
   const language = req.body.language;
-  const dummyanswer = "negative";
+  let scoreLoad;
 
-  console.log(req.file, req.body);
-  // const form = formidable({ multiples: true });
+  CSVToJSON()
+    .fromFile("./enbulkdata.csv")
+    .then((source) => {
+      for (let i = 0; i < source.length; i++) {
+        source[i].keyAnswer = keyAnswer;
+        source[i].studentAnswer = source[i][answerColumns];
+        source[i].studentName = source[i][studentNames];
+      }
+      const csv = JSONToCSV(source);
+      fs.writeFileSync("./dataset.csv", csv);
 
-  // form.parse(req, (err, fields, files) => {
-  //   console.log(typeof files);
-  //   res.json({ fields, files });
-  // });
+      let options = {
+        mode: "json",
+        pythonOptions: ["-u"],
+      };
 
-  // console.log(rawStudentAnswers);
+      PythonShell.run("models/english/aprilModel.py", options)
+        .then((messages) => {
+          // console.log(messages);
+          scoreLoad = messages;
+        })
+        .then(() => {
+          // res.send(scoreLoad);
+          // console.log(Object.keys(scoreLoad[0].studentName).length);
 
-  // res.render("result/bulkResult", {
-  //   language: language,
-  //   keyAnswer: keyAnswer,
-  //   // answer: dummyanswer,
-  // });
+          res.render("result/bulkResult", {
+            language: language,
+            keyAnswer: keyAnswer,
+            givenObjectKeyLength: Object.keys(scoreLoad[0].studentName).length,
+            objectName: scoreLoad[0].studentName,
+            objectAnswer: scoreLoad[0].studentAnswer,
+            objectScore: scoreLoad[0].scoreModelStem,
+          });
+        });
+    });
 });
 
 app.listen(1234, () => {
