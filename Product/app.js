@@ -106,7 +106,16 @@ app.post("/ens", (req, res) => {
         language: language,
         keyAnswer: scoreLoad[0].keyAnswer["0"],
         answer: scoreLoad[0].studentAnswer["0"],
-        score: (scoreLoad[0].scoreModelStem["0"] / 5) * 100,
+        score: ((scoreLoad[0].scoreModelStem["0"] / 5) * 100).toFixed(2) + "%",
+      });
+    })
+    .catch((err) => {
+      res.render("result/singleResult", {
+        language: language,
+        keyAnswer: keyAnswer,
+        answer: answer,
+        score:
+          "Submitted paragraphs may not contain meaningful words for the app to check, so we cannot continue the calculation",
       });
     });
 });
