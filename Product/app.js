@@ -4,9 +4,7 @@ const path = require("path");
 const CSVToJSON = require("csvtojson");
 const JSONToCSV = require("json2csv").parse;
 var fs = require("fs");
-const { spawn } = require("child_process");
 const { PythonShell } = require("python-shell");
-const formidable = require("formidable");
 const multer = require("multer");
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -17,17 +15,10 @@ const storage = multer.diskStorage({
   },
 });
 const upload = multer({ storage: storage });
-// var csv = require("csv");
-// const Papa = require("papaparse");
-// const { log } = require("console");
 
 const app = express();
 
-app.set("views", [
-  path.join(__dirname, "views"),
-  // path.join(__dirname, "views/home/"),
-  // path.join(__dirname, "views/help/"),
-]);
+app.set("views", [path.join(__dirname, "views")]);
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
@@ -69,8 +60,6 @@ app.post("/ids", (req, res) => {
   const answer = req.body.studentAnswer;
   const language = req.body.language;
 
-  // console.log(keyAnswer + " ---- " + answer);
-
   res.render("result/singleResult", {
     language: language,
     keyAnswer: keyAnswer,
@@ -82,26 +71,30 @@ app.post("/ens", (req, res) => {
   const keyAnswer = req.body.teacherAnswer;
   const answer = req.body.studentAnswer;
   const language = req.body.language;
+  const docid = req.body.docid;
 
   let Dataset = `keyAnswer,studentAnswer\n"${keyAnswer}","${answer}"`;
 
   let scoreLoad;
 
-  fs.writeFileSync("dataset.csv", Dataset, "utf8");
+  fs.writeFileSync(docid + ".csv", Dataset, "utf8");
 
   let options = {
     mode: "json",
     pythonOptions: ["-u"],
+    args: [docid],
   };
 
   PythonShell.run("models/english/aprilModel.py", options)
     .then((messages) => {
-      // console.log(messages);
       scoreLoad = messages;
     })
     .then(() => {
-      // console.log(scoreLoad);
-
+      fs.unlink(docid + ".csv", (err) => {
+        if (err) throw err;
+      });
+    })
+    .then(() => {
       res.render("result/singleResult", {
         language: language,
         keyAnswer: scoreLoad[0].keyAnswer["0"],
@@ -145,13 +138,9 @@ app.post("/enb", upload.single("studentAnswers"), (req, res) => {
 
       PythonShell.run("models/english/aprilModel.py", options)
         .then((messages) => {
-          // console.log(messages);
           scoreLoad = messages;
         })
         .then(() => {
-          // res.send(scoreLoad);
-          // console.log(Object.keys(scoreLoad[0].studentName).length);
-
           res.render("result/bulkResult", {
             language: language,
             keyAnswer: keyAnswer,

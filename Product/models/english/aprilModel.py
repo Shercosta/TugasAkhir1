@@ -15,6 +15,7 @@ from textblob import TextBlob
 import pandas as pd
 import string
 import re
+import sys
 from nltk.corpus import stopwords
 
 nltk.download("stopwords")
@@ -31,7 +32,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # %%
 
-full_df = pd.read_csv("dataset.csv")
+full_df = pd.read_csv(f"{sys.argv[1]}.csv")
 full_df
 
 
