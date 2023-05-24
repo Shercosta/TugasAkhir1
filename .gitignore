@@ -3,3 +3,4 @@
 *.tmp
 TA-Costa.docx
 node_modules/
+*.csv
