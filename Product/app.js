@@ -6,12 +6,14 @@ const JSONToCSV = require("json2csv").parse;
 var fs = require("fs");
 const { PythonShell } = require("python-shell");
 const multer = require("multer");
+let bulkDocumentID;
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "./");
   },
   filename: (req, file, cb) => {
-    cb(null, "enbulkdata.csv");
+    bulkDocumentID = new Date().getMilliseconds();
+    cb(null, bulkDocumentID + ".csv");
   },
 });
 const upload = multer({ storage: storage });
@@ -118,10 +120,12 @@ app.post("/enb", upload.single("studentAnswers"), (req, res) => {
   const studentNames = req.body.nameColumns;
   const answerColumns = req.body.answerColumns;
   const language = req.body.language;
+  let docid = bulkDocumentID;
   let scoreLoad;
+  // console.log(req.file, docid);
 
   CSVToJSON()
-    .fromFile("./enbulkdata.csv")
+    .fromFile("./" + docid + ".csv")
     .then((source) => {
       for (let i = 0; i < source.length; i++) {
         source[i].keyAnswer = keyAnswer;
@@ -129,16 +133,22 @@ app.post("/enb", upload.single("studentAnswers"), (req, res) => {
         source[i].studentName = source[i][studentNames];
       }
       const csv = JSONToCSV(source);
-      fs.writeFileSync("./dataset.csv", csv);
+      fs.writeFileSync(docid + ".csv", csv);
 
       let options = {
         mode: "json",
         pythonOptions: ["-u"],
+        args: [docid],
       };
 
       PythonShell.run("models/english/aprilModel.py", options)
         .then((messages) => {
           scoreLoad = messages;
+        })
+        .then(() => {
+          fs.unlink(docid + ".csv", (err) => {
+            if (err) throw err;
+          });
         })
         .then(() => {
           res.render("result/bulkResult", {
