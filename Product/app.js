@@ -57,17 +57,17 @@ app.route("/option").post((req, res) => {
   }
 });
 
-app.post("/ids", (req, res) => {
-  const keyAnswer = req.body.teacherAnswer;
-  const answer = req.body.studentAnswer;
-  const language = req.body.language;
+// app.post("/ids", (req, res) => {
+//   const keyAnswer = req.body.teacherAnswer;
+//   const answer = req.body.studentAnswer;
+//   const language = req.body.language;
 
-  res.render("result/singleResult", {
-    language: language,
-    keyAnswer: keyAnswer,
-    answer: answer,
-  });
-});
+//   res.render("result/singleResult", {
+//     language: language,
+//     keyAnswer: keyAnswer,
+//     answer: answer,
+//   });
+// });
 
 app.post("/ens", (req, res) => {
   const keyAnswer = req.body.teacherAnswer;
@@ -160,6 +160,34 @@ app.post("/enb", upload.single("studentAnswers"), (req, res) => {
             objectScore: scoreLoad[0].scoreModelStem,
           });
         });
+    });
+});
+
+app.post("/ids", (req, res) => {
+  const { language, teacherAnswer, studentAnswer, docid } = req.body;
+
+  let option = {
+    mode: "text",
+    pythonOptions: ["-u"],
+    args: [teacherAnswer, studentAnswer, docid],
+  };
+
+  PythonShell.run("./models/indonesia/ASAG.py", option)
+    .then((messages) => {
+      console.log(docid);
+    })
+    .then(() => {
+      let jsonfile = fs.readFileSync(docid + ".json");
+      let rawdata = JSON.parse(jsonfile);
+      fs.unlink(docid + ".json", (err) => {
+        if (err) throw err;
+      });
+      res.render("result/singleResult", {
+        language: language,
+        keyAnswer: teacherAnswer,
+        score: rawdata.score,
+        answer: studentAnswer,
+      });
     });
 });
 
