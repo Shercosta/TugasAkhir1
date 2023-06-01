@@ -3,12 +3,12 @@
 import nltk
 from nltk.tokenize import word_tokenize
 
-nltk.download("punkt")
-nltk.download("averaged_perceptron_tagger")
+# nltk.download("punkt")
+# nltk.download("averaged_perceptron_tagger")
 from nltk.stem import WordNetLemmatizer
 
-nltk.download("wordnet")
-nltk.download("omw-1.4")
+# nltk.download("wordnet")
+# nltk.download("omw-1.4")
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from textblob import TextBlob
@@ -18,7 +18,7 @@ import re
 import sys
 from nltk.corpus import stopwords
 
-nltk.download("stopwords")
+# nltk.download("stopwords")
 from nltk.stem import SnowballStemmer
 from textblob import TextBlob
 import re

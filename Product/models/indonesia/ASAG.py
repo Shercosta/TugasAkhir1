@@ -161,8 +161,15 @@ stem_ans = stemming(filter_ans)
 
 sctScore = str(term(stem_q, stem_ans))
 newfile = open(f"{sys.argv[3]}.json", "a")
-newfile.write(
-    '{"kj":"' + kj + '",\n"ans":"' + jawaban + '",\n"score":' + sctScore + "}"
-)
+# newfile.write(
+#     '{"kj":"'
+#     + case_fold_q
+#     + '",\n"ans":"'
+#     + case_fold_ans
+#     + '",\n"score":'
+#     + sctScore
+#     + "}"
+# )
+newfile.write('{"score":' + sctScore + "}")
 newfile.close()
 print("done")

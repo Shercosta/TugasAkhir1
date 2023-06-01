@@ -1,7 +1,7 @@
 document.getElementById("print").addEventListener("click", () => {
-  // document.getElementById("print").hidden = "true";
+  document.getElementById("print").style.opacity = 0;
   window.print();
+  document.getElementById("print").style.opacity = 1;
   // setTimeout(() => {
-  //   document.getElementById("print").hidden = "false";
-  // }, 30);
+  // }, 1000);
 });

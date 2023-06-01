@@ -172,23 +172,22 @@ app.post("/ids", (req, res) => {
     args: [teacherAnswer, studentAnswer, docid],
   };
 
-  PythonShell.run("./models/indonesia/ASAG.py", option)
-    .then((messages) => {
-      console.log(docid);
-    })
-    .then(() => {
-      let jsonfile = fs.readFileSync(docid + ".json");
-      let rawdata = JSON.parse(jsonfile);
-      fs.unlink(docid + ".json", (err) => {
-        if (err) throw err;
-      });
-      res.render("result/singleResult", {
-        language: language,
-        keyAnswer: teacherAnswer,
-        score: rawdata.score,
-        answer: studentAnswer,
-      });
+  PythonShell.run("./models/indonesia/ASAG.py", option).then((messages) => {
+    // console.log(docid);
+    // })
+    // .then(() => {
+    let jsonfile = fs.readFileSync(docid + ".json");
+    let rawdata = JSON.parse(jsonfile);
+    fs.unlink(docid + ".json", (err) => {
+      if (err) throw err;
     });
+    res.render("result/singleResult", {
+      language: language,
+      keyAnswer: teacherAnswer,
+      score: rawdata.score,
+      answer: studentAnswer,
+    });
+  });
 });
 
 app.listen(1234, () => {
