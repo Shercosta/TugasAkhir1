@@ -57,18 +57,6 @@ app.route("/option").post((req, res) => {
   }
 });
 
-// app.post("/ids", (req, res) => {
-//   const keyAnswer = req.body.teacherAnswer;
-//   const answer = req.body.studentAnswer;
-//   const language = req.body.language;
-
-//   res.render("result/singleResult", {
-//     language: language,
-//     keyAnswer: keyAnswer,
-//     answer: answer,
-//   });
-// });
-
 app.post("/ens", (req, res) => {
   const keyAnswer = req.body.teacherAnswer;
   const answer = req.body.studentAnswer;
@@ -176,18 +164,93 @@ app.post("/ids", (req, res) => {
     // console.log(docid);
     // })
     // .then(() => {
-    let jsonfile = fs.readFileSync(docid + ".json");
-    let rawdata = JSON.parse(jsonfile);
-    fs.unlink(docid + ".json", (err) => {
+    let txtfile = fs
+      .readFileSync(docid + ".txt", "utf-8")
+      .replace(/\r/g, "")
+      .split("\n");
+    // console.log(txtfile);
+
+    // let rawdata = JSON.parse(jsonfile);
+    fs.unlink(docid + ".txt", (err) => {
       if (err) throw err;
     });
     res.render("result/singleResult", {
       language: language,
       keyAnswer: teacherAnswer,
-      score: rawdata.score,
+      score: txtfile[0],
       answer: studentAnswer,
     });
   });
+});
+
+app.post("/idb", upload.single("studentAnswers"), async (req, res) => {
+  const { teacherAnswer, nameColumns, answerColumns, language } = req.body;
+  let docid = bulkDocumentID;
+
+  // const check = (opt) => {
+  // };
+
+  const sources = await CSVToJSON().fromFile("./" + docid + ".csv");
+
+  // const messages = [];
+
+  for (let i = 0; i < sources.length; i++) {
+    const options = {
+      mode: "text",
+      pythonOptions: ["-u"],
+      args: [teacherAnswer, sources[i][answerColumns], docid],
+    };
+
+    // messages.push(await PythonShell.run("./models/indonesia/ASAG.py", options));
+    await PythonShell.run("./models/indonesia/ASAG.py", options);
+  }
+
+  let txtfile = fs
+    .readFileSync(docid + ".txt", "utf-8")
+    .replace(/\r/g, "")
+    .split("\n");
+
+  // console.log(txtfile);
+  for (i = 0; i < txtfile.length - 1; i++) {
+    sources[i].studentName = sources[i][nameColumns];
+    sources[i].studentAnswer = sources[i][answerColumns];
+    sources[i].score = txtfile[i];
+  }
+
+  // console.log(sources);
+
+  res.render("result/bulkResultID", {
+    language: language,
+    keyAnswer: teacherAnswer,
+    studentData: sources,
+  });
+
+  fs.unlink(docid + ".csv", (err) => {
+    if (err) throw err;
+  });
+  fs.unlink(docid + ".txt", (err) => {
+    if (err) throw err;
+  });
+  // console.log(messages);
+
+  // CSVToJSON()
+  //   .fromFile("./" + docid + ".csv")
+  //   .then((source) => {
+
+  // for (let i = 0; i < source.length; i++) {
+  //   let options = {
+  //     mode: "text",
+  //     pythonOptions: ["-u"],
+  //     args: [source[teacherAnswer], source[answerColumns], docid],
+  //   };
+
+  //   PythonShell.run("./models/indonesia/ASAG.py", options).then(
+  //     (messages) => {
+  //       return messages;
+  //     }
+  //   );
+  // }
+  //   });
 });
 
 app.listen(1234, () => {

@@ -160,16 +160,16 @@ stem_ans = stemming(filter_ans)
 # print("Skor Menggunakan Lemmatization: ", term(lemma_q, lemma_ans))
 
 sctScore = str(term(stem_q, stem_ans))
-newfile = open(f"{sys.argv[3]}.txt", "a")
-# newfile.write(
-#     '{"kj":"'
-#     + case_fold_q
-#     + '",\n"ans":"'
-#     + case_fold_ans
-#     + '",\n"score":'
-#     + sctScore
-#     + "}"
-# )
-newfile.write(f"{sctScore}\n")
-newfile.close()
-print("done")
+# newfile = open(f"{sys.argv[3]}.txt", "a")
+# # newfile.write(
+# #     '{"kj":"'
+# #     + case_fold_q
+# #     + '",\n"ans":"'
+# #     + case_fold_ans
+# #     + '",\n"score":'
+# #     + sctScore
+# #     + "}"
+# # )
+# newfile.write(f"{sctScore}\n")
+# newfile.close()
+print(sctScore)
