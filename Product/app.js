@@ -164,41 +164,66 @@ app.post("/ids", (req, res) => {
     // console.log(docid);
     // })
     // .then(() => {
-    let jsonfile = fs.readFileSync(docid + ".json");
-    let rawdata = JSON.parse(jsonfile);
-    fs.unlink(docid + ".json", (err) => {
-      if (err) throw err;
-    });
-    res.render("result/singleResult", {
-      language: language,
-      keyAnswer: teacherAnswer,
-      score: rawdata.score,
-      answer: studentAnswer,
-    });
+    let txtfile = fs
+      .readFileSync(docid + ".txt", "utf-8")
+      .replace(/\r/g, "")
+      .split("\n");
+    console.log(txtfile);
+
+    // let rawdata = JSON.parse(jsonfile);
+    // fs.unlink(docid + ".json", (err) => {
+    //   if (err) throw err;
+    // });
+    // res.render("result/singleResult", {
+    //   language: language,
+    //   keyAnswer: teacherAnswer,
+    //   score: rawdata.score,
+    //   answer: studentAnswer,
+    // });
   });
 });
 
-app.post("/idb", upload.single("studentAnswers"), (req, res) => {
+app.post("/idb", upload.single("studentAnswers"), async (req, res) => {
   const { teacherAnswer, nameColumns, answerColumns, language } = req.body;
   let docid = bulkDocumentID;
 
-  const check = (opt) => {
-    PythonShell.run("./models/indonesia/ASAG.py", opt).then((messages) => {
-      return messages;
-    });
-  };
+  // const check = (opt) => {
+  // };
 
-  CSVToJSON()
-    .fromFile("./" + docid + ".csv")
-    .then((source) => {
-      for (let i = 0; i < source.length; i++) {
-        let options = {
-          mode: "text",
-          pythonOptions: ["-u"],
-          args: [source[teacherAnswer], source[answerColumns], docid],
-        };
-      }
-    });
+  const sources = await CSVToJSON().fromFile("./" + docid + ".csv");
+
+  const messages = [];
+
+  for (let i = 0; i < sources.length; i++) {
+    const options = {
+      mode: "text",
+      pythonOptions: ["-u"],
+      args: [sources[i][teacherAnswer], sources[i][answerColumns], docid],
+    };
+
+    messages.push(await PythonShell.run("./models/indonesia/ASAG.py", options));
+  }
+
+  // console.log(messages);
+
+  // CSVToJSON()
+  //   .fromFile("./" + docid + ".csv")
+  //   .then((source) => {
+
+  // for (let i = 0; i < source.length; i++) {
+  //   let options = {
+  //     mode: "text",
+  //     pythonOptions: ["-u"],
+  //     args: [source[teacherAnswer], source[answerColumns], docid],
+  //   };
+
+  //   PythonShell.run("./models/indonesia/ASAG.py", options).then(
+  //     (messages) => {
+  //       return messages;
+  //     }
+  //   );
+  // }
+  //   });
 });
 
 app.listen(1234, () => {

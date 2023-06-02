@@ -160,7 +160,7 @@ stem_ans = stemming(filter_ans)
 # print("Skor Menggunakan Lemmatization: ", term(lemma_q, lemma_ans))
 
 sctScore = str(term(stem_q, stem_ans))
-newfile = open(f"{sys.argv[3]}.json", "a")
+newfile = open(f"{sys.argv[3]}.txt", "a")
 # newfile.write(
 #     '{"kj":"'
 #     + case_fold_q
@@ -170,6 +170,6 @@ newfile = open(f"{sys.argv[3]}.json", "a")
 #     + sctScore
 #     + "}"
 # )
-newfile.write('{"score":' + sctScore + "}")
+newfile.write(f"{sctScore}\n")
 newfile.close()
 print("done")
