@@ -7,7 +7,13 @@
       <h1><i class="fa-regular fa-file-excel"></i>Indonesia</h1>
     </div>
   </div>
-  <form action="" method="post" class="">
+  <form
+    action="/idb"
+    id="idbulk"
+    enctype="multipart/form-data"
+    method="post"
+    class=""
+  >
     <input type="hidden" name="language" value="Indonesia" />
     <div class="row">
       <div class="col col-12 col-lg-6 mb-5">
@@ -26,6 +32,8 @@
           <input
             class="form-control mb-3"
             type="file"
+            accept=".csv"
+            multiple="multiple"
             name="studentAnswers"
             id="studentAnswer"
           />

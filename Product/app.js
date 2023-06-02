@@ -57,18 +57,6 @@ app.route("/option").post((req, res) => {
   }
 });
 
-// app.post("/ids", (req, res) => {
-//   const keyAnswer = req.body.teacherAnswer;
-//   const answer = req.body.studentAnswer;
-//   const language = req.body.language;
-
-//   res.render("result/singleResult", {
-//     language: language,
-//     keyAnswer: keyAnswer,
-//     answer: answer,
-//   });
-// });
-
 app.post("/ens", (req, res) => {
   const keyAnswer = req.body.teacherAnswer;
   const answer = req.body.studentAnswer;
@@ -188,6 +176,29 @@ app.post("/ids", (req, res) => {
       answer: studentAnswer,
     });
   });
+});
+
+app.post("/idb", upload.single("studentAnswers"), (req, res) => {
+  const { teacherAnswer, nameColumns, answerColumns, language } = req.body;
+  let docid = bulkDocumentID;
+
+  const check = (opt) => {
+    PythonShell.run("./models/indonesia/ASAG.py", opt).then((messages) => {
+      return messages;
+    });
+  };
+
+  CSVToJSON()
+    .fromFile("./" + docid + ".csv")
+    .then((source) => {
+      for (let i = 0; i < source.length; i++) {
+        let options = {
+          mode: "text",
+          pythonOptions: ["-u"],
+          args: [source[teacherAnswer], source[answerColumns], docid],
+        };
+      }
+    });
 });
 
 app.listen(1234, () => {
