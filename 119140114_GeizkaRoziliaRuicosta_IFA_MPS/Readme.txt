@@ -1,0 +1,1 @@
+Program ada pada zip "easysay-main", namun sebaiknya di download saja dari: https://github.com/Shercosta/easysay
